@@ -623,7 +623,7 @@
 - [JiaThis](http://jiathis.com/) pc端
 - [社会化分享组件](http://developer.baidu.com/soc/share) 移动端
 - [ShareSDK 轻松实现社会化功能](http://www.mob.com/#/index) 移动端
-- [友盟分享](http://dev.umeng.com/social/android/quick-integration) 移动端
+- [友盟分享](http://www.umeng.com/social) 移动端
 - [addthis](http://www.addthis.com/) 国外社交分享
 
 ####8. 富文本编辑器
