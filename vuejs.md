@@ -32,7 +32,6 @@
     - [Vue中文资料总汇](https://shimo.im/s/ab53739d-ca98-bd1e-aea0-fcc7378c6bb3)
     - [Vue.js 的一些资源索引](http://segmentfault.com/a/1190000000411057)
     - [vue资料](http://www.jianshu.com/p/afd8e1db7d9b)
-    - [Vue.js——vue-resource全攻略](http://www.cnblogs.com/keepfool/p/5657065.html)
 
 2. 入门类
     - [vue 快速入门](http://segmentfault.com/a/1190000003968020)
@@ -123,6 +122,8 @@
      - [vue-qrcode](https://github.com/xiaokaike/vue-qrcode)
 - 省市联动
     - [Vue 省市区三级联动组件](https://github.com/QingWei-Li/vue-region-picker)
+- TimeLine
+    - [企业级 Vue 时间选择器](https://github.com/yelingfeng/vue-timelinepick)
      
 ###四. 示例
 
