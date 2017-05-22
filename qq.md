@@ -72,6 +72,7 @@
 参考：
 
 - [X-Y 问题](http://coolshell.cn/articles/10804.html)
+- [提问的智慧](https://lug.ustc.edu.cn/wiki/doc/smart-questions)
 - [向别人求助时有哪些「潜」规则？](http://www.zhihu.com/question/21218381)
 - [如何在知乎提一个好问题？](http://www.zhihu.com/question/19555761)
 - [如何优雅地向前辈或者高手请教技术问题？](http://www.zhihu.com/question/25464141)
@@ -140,7 +141,8 @@
     - [前端开发者手册](https://dwqs.gitbooks.io/frontenddevhandbook/content/)
     - [前端开发者手册](http://www.kancloud.cn/kancloud/front-end-dev-handbook/75919)
     - [JavaScript 资源大全中文版](https://www.awesomes.cn/)
-    - [Awesomes - 前端资源库](https://github.com/jobbole/awesome-javascript-cn)
+    - [伯乐在线 - 资源大全](https://github.com/jobbole)
+    - [伯乐在线 - 前端资源库](https://github.com/jobbole/awesome-javascript-cn)
 
 2. 入门类
 
@@ -167,6 +169,7 @@
     - [lyn - 慕课系列](http://www.imooc.com/u/104593/courses?sort=publish)
     - [艾伦 - 慕课系列](http://www.imooc.com/u/290139/courses?sort=publish)
     - [碧仔 - Hello，移动WEB](http://www.imooc.com/view/494)
+	- [haorooms - js/jquery宽高介绍](http://www.imooc.com/learn/608)
 
 6. 周刊类
 
@@ -257,6 +260,8 @@
 - [animate.css](http://daneden.github.io/animate.css/)
 - [全局CSS的终结(狗带) [译]](http://www.alloyteam.com/2015/10/8536/)
 - [ANIMATION - 大漠](http://www.w3cplus.com/blog/tags/29.html)
+- [css选择器](http://www.haorooms.com/tools/css_selecter/)
+
 
 ####7. Angularjs
 
@@ -309,6 +314,7 @@
 - [基于react组件化开发](https://github.com/ant-design/ant-design)
 - [React 编程规范(by Airbnb)](https://github.com/dwqs/react-style-guide)
 - [React Webpack小说](https://fakefish.github.io/react-webpack-cookbook/index.html)
+- [ant.design](http://ant.design/)
 
 ####9. 移动端API
 
@@ -353,6 +359,7 @@
 
 - [seajs](http://seajs.org/)
 - [seajs 中文手册](http://cyj.me/why-seajs/zh/)
+- [JavaScript模块化开发库之SeaJS](http://www.cnblogs.com/snandy/archive/2012/03/30/2423612.html)
 
 ####13. Less,sass
 
@@ -458,6 +465,8 @@
 - [小胡子哥 - 进阶正则表达式](http://div.io/topic/764?page=1)
 - [is.js](https://github.com/Cedriking/is.js/blob/master/is.js)
 - [正则在线测试](http://regexper.com/)
+- [haorooms正则文章](http://www.haorooms.com/search?keyword=%E6%AD%A3%E5%88%99)
+
 
 ####22. ionic
 
@@ -629,6 +638,7 @@
 - [ShareSDK 轻松实现社会化功能](http://www.mob.com/#/index) 移动端
 - [友盟分享](http://www.umeng.com/social) 移动端
 - [addthis](http://www.addthis.com/) 国外社交分享
+- [一键分享到各种SNS](http://overtrue.me/share.js/)
 
 ####8. 富文本编辑器
 
@@ -673,6 +683,8 @@
     - [贤心-laydate](http://laydate.layui.com/)
     - [Pikaday-微型日历](http://dbushell.github.io/Pikaday/)
     - [AngularJS datepicker directives](https://github.com/g00fy-/angular-datepicker)
+    - [周选择日历插件](https://github.com/confidence68/Kalendae)
+
 
 2. 移动
 
@@ -719,6 +731,7 @@
 
     - [gruntjs](http://gruntjs.com/)
     - [Grunt中文网](http://www.gruntjs.net/)
+	- [Grunt入门教程](http://www.haorooms.com/search?keyword=grunt)
 
 4. Fis
 
@@ -735,6 +748,7 @@
     - [Webpack傻瓜式指南（一）](http://zhuanlan.zhihu.com/FrontendMagazine/20367175)
     - [Webpack指南](https://github.com/TJZC/Banyan/wiki/Webpack%E6%8C%87%E5%8D%97)
     - [webpack指南](http://webpack.toobug.net/zh-cn/index.html)
+    - [webpack 教程资源收集](https://segmentfault.com/a/1190000005995267)
 
 ####12. 轮播图
 
@@ -743,6 +757,7 @@
     - [单屏轮播sochange](http://www.jsfoot.com/jquery/demo/2011-09-20/192.html)
     - [左右按钮多图切换](http://bxslider.com/examples/carousel-demystified)
     - [fullpage全屏轮播](https://github.com/alvarotrigo/fullPage.js/)
+	- [haorooms资源库轮播大全](http://resource.haorooms.com/soft-6-1.html)
 
 2. 移动端
 
@@ -772,7 +787,7 @@
 
 ####13. 文件上传
 
-- [百度上传组件](http://fex.baidu.com/webuploader/)
+- [百度上传组件](http://fex-team.github.io/webuploader/)
 - [上传](https://blueimp.github.io/jQuery-File-Upload/)
 - [flash 头像上传](http://www.hdfu.net/)
 - [图片上传预览](http://www.dropzonejs.com/)
@@ -798,6 +813,7 @@
 ####16. 城市联动
 
 - [jquery.cityselect.js基于jQuery+JSON的省市或自定义联动效果](http://www.ijquery.cn/?p=360)
+- [移动端省市三级联动demo](http://resource.haorooms.com/softshow-33-127-1.html)
 
 ####17. 剪贴板
 
@@ -923,6 +939,7 @@
     - [Why Website Speed is Important](http://sixrevisions.com/web-development/why-website-speed-is-important/)
     - [Need for Speed – How to Improve your Website Performance](http://www.devbridge.com/articles/need-for-speed-how-to-improve-your-website-performance/)
     - [阿里无线前端性能优化指南 (Pt.1 加载期优化) ](https://github.com/amfe/article/issues/1)
+    - [前端性能优化补充篇](http://www.haorooms.com/post/qianduan_xnyhbc)
 
 2. 优化工具
 
@@ -1014,7 +1031,6 @@
 
 2. 模板
 
-    - [不错的个人简历](http://learnshare.github.io/about/index.html)
     - [简历](http://hcy2367.github.io/resume/)
     - [张伦](http://ncuey.sinaapp.com/CrispElite/ )
     - [简历](https://github.com/hacke2/ResumeSample)
@@ -1028,28 +1044,34 @@
 
 ###十四. 面试题
 
-1. [那几个月在找工作（百度，网易游戏）](http://www.nowcoder.com/discuss/3196)
-2. [名企笔试大全](http://group.jobbole.com/category/tech/interview-test/)
-3. [2016校招内推 -- 阿里巴巴前端 -- 三面面试经历 ](http://www.cnblogs.com/imwtr/p/4685546.html)
-4. [年后跳槽那点事：乐视+金山+360面试之行](http://www.cnblogs.com/lvdabao/p/3660707.html)
-5. [拉勾网js面试题](http://www.cnblogs.com/52cik/p/js-question-lg.html)
-6. [前端面试](http://www.cnblogs.com/allenxing/p/3724382.html)
-7. [前端开发面试题](http://segmentfault.com/a/1190000000465431)
-8. [百度面试](https://github.com/fex-team/interview-questions)
-9. [前端工作面试问题](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
-10. [前端开发面试题](http://segmentfault.com/a/1190000000465431)
-11. [5个经典的前端面试问题](http://ourjs.com/detail/5%E4%B8%AA%E7%BB%8F%E5%85%B8%E7%9A%84%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98)
-12. [如何面试一名前端开发工程师？](http://www.html-js.com/article/Large-search-front-team-column%202961)
-13. [前端实习生面试总结 ](http://www.cnblogs.com/xiaoruo/p/4665163.html)
-14. [史上最全 前端开发面试问题及答案整理](https://github.com/hawx1993/Front-end-Interview-questions)
-15. [BAT及各大互联网公司2014前端笔试面试题：JavaScript篇](http://blog.jobbole.com/78738/)
-16. [前端开发面试题大收集](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)
-17. [收集的前端面试题和答案](https://github.com/qiu-deqing/FE-interview)
-18. [如何面试前端工程师](http://www.zhihu.com/question/19568008)
-19. [前端开发面试题](https://github.com/markyun/My-blog/blob/master/Front-end-Developer-Questions/Questions-and-Answers/README.md)
-20. [牛客网-笔试面经](http://www.nowcoder.com/discuss?type=2)
-21. [Front End Developer Questions](http://markyun.github.io/2015/Front-end-Developer-Questions/)
-22. [40 个重要的 HTML5 面试问题及答案](http://www.codeceo.com/article/40-important-html5-interviews.html)
+- 前端
+
+    1. [那几个月在找工作（百度，网易游戏）](http://www.nowcoder.com/discuss/3196)
+    2. [名企笔试大全](http://group.jobbole.com/category/tech/interview-test/)
+    3. [2016校招内推 -- 阿里巴巴前端 -- 三面面试经历 ](http://www.cnblogs.com/imwtr/p/4685546.html)
+    4. [年后跳槽那点事：乐视+金山+360面试之行](http://www.cnblogs.com/lvdabao/p/3660707.html)
+    5. [拉勾网js面试题](http://www.cnblogs.com/52cik/p/js-question-lg.html)
+    6. [前端面试](http://www.cnblogs.com/allenxing/p/3724382.html)
+    7. [前端开发面试题](http://segmentfault.com/a/1190000000465431)
+    8. [百度面试](https://github.com/fex-team/interview-questions)
+    9. [前端工作面试问题](https://github.com/h5bp/Front-end-Developer-Interview-Questions)
+    10. [前端开发面试题](http://segmentfault.com/a/1190000000465431)
+    11. [5个经典的前端面试问题](http://ourjs.com/detail/5%E4%B8%AA%E7%BB%8F%E5%85%B8%E7%9A%84%E5%89%8D%E7%AB%AF%E9%9D%A2%E8%AF%95%E9%97%AE%E9%A2%98)
+    12. [如何面试一名前端开发工程师？](http://www.html-js.com/article/Large-search-front-team-column%202961)
+    13. [前端实习生面试总结 ](http://www.cnblogs.com/xiaoruo/p/4665163.html)
+    14. [史上最全 前端开发面试问题及答案整理](https://github.com/hawx1993/Front-end-Interview-questions)
+    15. [BAT及各大互联网公司2014前端笔试面试题：JavaScript篇](http://blog.jobbole.com/78738/)
+    16. [前端开发面试题大收集](https://github.com/paddingme/Front-end-Web-Development-Interview-Question)
+    17. [收集的前端面试题和答案](https://github.com/qiu-deqing/FE-interview)
+    18. [如何面试前端工程师](http://www.zhihu.com/question/19568008)
+    19. [前端开发面试题](https://github.com/markyun/My-blog/blob/master/Front-end-Developer-Questions/Questions-and-Answers/README.md)
+    20. [牛客网-笔试面经](http://www.nowcoder.com/discuss?type=2)
+    21. [Front End Developer Questions](http://markyun.github.io/2015/Front-end-Developer-Questions/)
+    22. [40 个重要的 HTML5 面试问题及答案](http://www.codeceo.com/article/40-important-html5-interviews.html)
+
+- java
+
+    - [Java工程师笔试题整理[校招篇]](https://zhuanlan.zhihu.com/p/21513402)
 
 ###十五. iconfont
 
@@ -1119,6 +1141,7 @@
         - [Chrome渲染分析之Rendering工具使用(3)](http://www.ghugo.com/chrome-rendering-tools-3/)
         - [像 Sublime Text 一样使用 Chrome DevTools](http://chinagdg.org/2015/12/%E5%83%8F-sublime-text-%E4%B8%80%E6%A0%B7%E4%BD%BF%E7%94%A8-chrome-devtools/)
         - [Chorme 35个开发者工具的小技巧](http://www.w3cplus.com/tools/dev-tips.html)
+        - [Chrome 实用调试技巧](http://blog.lxjwlt.com/2016/07/23/chrome.html)
 
     3. Firebug
         - [firebug视频教程](http://www.imooc.com/learn/137)
@@ -1186,6 +1209,7 @@
 - [前端导航](http://fenav.com/)
 - [前端工具箱](http://www.awesomes.cn/)
 - [前端人俱乐部-灵感_Idea](http://f2er.club/)
+- [haorooms前端导航](http://www.haorooms.com/nav)
 
 ###十八. 常用CDN
 

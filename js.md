@@ -504,6 +504,13 @@ function isDigit(value) {
     }
 }
 ```
+- 判断具体类型	
+```js
+function getType(a) {
+    var typeArray = Object.prototype.toString.call(a).split(" ");
+    return typeArray[1].slice(0, this.length-1);
+}
+```
 - 设置cookie值
 ```js
 function setCookie(name, value, Hours) {

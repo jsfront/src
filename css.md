@@ -20,7 +20,7 @@ text-align:justify;text-justify:inter-ideogra
 - [去掉Webkit(chrome)浏览器中input(文本框)或textarea的黄色焦点框](http://www.cnblogs.com/niao/archive/2012/09/07/2674511.html)
 ```css
 input,button,select,textarea{ outline:none;}
-textarea{ font-size:13px; resize:none;}
+textarea{ resize:none;}
 ```
 
 - [去掉chrome记住密码后自动填充表单的黄色背景](http://www.tuicool.com/articles/EZ777n )
@@ -34,13 +34,17 @@ textarea{ font-size:13px; resize:none;}
 
 - clearfix
 ```css
+
+.clearfix:before,.clearfix:after{display:table;content:"";}
+.clearfix:after{clear:both;}
+
 .clearfix:after{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0;}
 .clearfix{display:inline-block;}
 html[xmlns] .clearfix{display:block;}
 * html .clearfix{height:1%;}
 
 .clearfix{*zoom: 1;}
-.clearfix:after{clear:both;display:table;content:"”;}
+.clearfix:after{clear:both;display:table;content:"";}
 
 .clearfix{overflow:hidden;_zoom:1;}
 ```
@@ -372,3 +376,16 @@ window.addEventListener("onorientationchange" in window ? "orientationchange" : 
         }());
         ```
     
+- 页面的切换使用了page-enter
+```html
+<meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" />
+```
+- css相关总结网址
+
+    - [css常用效果总结](http://www.haorooms.com/post/css_common)
+    - [css的不常用效果总结](http://www.haorooms.com/post/css_notuse_common)
+	- [css开发技巧](http://www.haorooms.com/post/css_skill)
+	- [重温css的选择器](http://www.haorooms.com/post/css_selectelement)
+	- [css的变量和继承](http://www.haorooms.com/post/css_inherit_bl)
+	- [css3的混合模式](http://www.haorooms.com/post/css3_mixblendmode)
+	- [css中伪元素before或after中content的特殊用法attr](http://www.haorooms.com/post/content_attr)
