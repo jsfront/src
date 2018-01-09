@@ -1,0 +1,1068 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>第3章-JS常用代码 · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="css.html" />
+    
+    
+    <link rel="prev" href="vuejs.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="qq.html">
+            
+                <a href="qq.html">
+            
+                    
+                    第1章-QQ群规
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="vuejs.html">
+            
+                <a href="vuejs.html">
+            
+                    
+                    第2章-Vue群规
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.4" data-path="js.html">
+            
+                <a href="js.html">
+            
+                    
+                    第3章-JS常用代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="css.html">
+            
+                <a href="css.html">
+            
+                    
+                    第4章-CSS常用代码
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >第3章-JS常用代码</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h3 id="&#x4EE5;&#x4E0B;&#x662F;&#x5E38;&#x7528;&#x7684;&#x4EE3;&#x7801;&#x6536;&#x96C6;&#xFF0C;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x6280;&#x672F;&#x542B;&#x91CF;&#xFF0C;&#x53EA;&#x662F;&#x586B;&#x5751;&#x7684;&#x79EF;&#x7D2F;&#x3002;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#xFF0C;&#x8C22;&#x8C22;&#x3002;">&#x4EE5;&#x4E0B;&#x662F;&#x5E38;&#x7528;&#x7684;&#x4EE3;&#x7801;&#x6536;&#x96C6;&#xFF0C;&#x6CA1;&#x6709;&#x4EFB;&#x4F55;&#x6280;&#x672F;&#x542B;&#x91CF;&#xFF0C;&#x53EA;&#x662F;&#x586B;&#x5751;&#x7684;&#x79EF;&#x7D2F;&#x3002;&#x8F6C;&#x8F7D;&#x8BF7;&#x6CE8;&#x660E;&#x51FA;&#x5904;&#xFF0C;&#x8C22;&#x8C22;&#x3002;</h3>
+<h4 id="1-pc---js">1. PC - js</h4>
+<ul>
+<li><p>&#x8FD4;&#x56DE;&#x6307;&#x5B9A;&#x8303;&#x56F4;&#x7684;&#x968F;&#x673A;&#x6570;(m-n&#x4E4B;&#x95F4;)&#x7684;&#x516C;&#x5F0F;</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">Math</span>.random()*(n-m)+m
+</code></pre>
+</li>
+<li><p><a href="http://stackoverflow.com/questions/1357118/event-preventdefault-vs-return-false" target="_blank">return false</a></p>
+</li>
+<li><p><a href="http://www.75team.com/archives/201" target="_blank">return false</a></p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// event.preventDefault()&#x4F1A;&#x963B;&#x6321;&#x9884;&#x8BBE;&#x8981;&#x53D1;&#x751F;&#x7684;&#x4E8B;&#x4EF6;.</span>
+<span class="hljs-comment">// event.stopPropagation()&#x4F1A;&#x963B;&#x6321;&#x53D1;&#x751F;&#x5192;&#x6CE1;&#x4E8B;&#x4EF6;.</span>
+<span class="hljs-comment">// &#x800C;return false&#x5219;&#x662F;&#x524D;&#x9762;&#x4E24;&#x8005;&#x7684;&#x4E8B;&#x60C5;&#x4ED6;&#x90FD;&#x4F1A;&#x505A;&#xFF1A;</span>
+<span class="hljs-comment">// &#x4ED6;&#x4F1A;&#x505A;event.preventDefault();</span>
+<span class="hljs-comment">// &#x4ED6;&#x4F1A;&#x505A;event.stopPropagation();</span>
+<span class="hljs-comment">// &#x505C;&#x6B62;callback function&#x7684;&#x6267;&#x884C;&#x5E76;&#x4E14;&#x7ACB;&#x5373;return&#x56DE;&#x6765;</span>
+</code></pre>
+</li>
+<li><p>&#x9632;&#x6B62;&#x88AB;Iframe&#x5D4C;&#x5957;</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span>(top != self){
+  location.href = &#x201D;about:blank&#x201D;;
+}
+</code></pre>
+</li>
+<li><p>&#x4E24;&#x79CD;&#x56FE;&#x7247;lazy&#x52A0;&#x8F7D;&#x7684;&#x65B9;&#x5F0F;
+&#x7B2C;&#x4E00;&#x4E2A;By JS&#x4E2D;&#x7EA7;&#x4EA4;&#x6D41;&#x7FA4; &#x6210;&#x90FD;-&#x730E;&#x5DEB; &#x7B2C;&#x4E8C;&#x4E2A;By &#x4E0A;&#x6D77;-zenki 
+```javascript
+// @description &#x51C6;&#x5907;&#x4E3A;&#x56FE;&#x7247;&#x9884;&#x52A0;&#x8F7D;&#x4F7F;&#x7528;&#x7684;&#x63D2;&#x4EF6;
+// &#x4F7F;&#x7528;&#x7684;&#x56FE;&#x7247;&#x5BB9;&#x5668;css&#x7C7B;&#x540D;&#x4E3A;lazy-load-wrap
+// &#x56FE;&#x7247;&#x771F;&#x5B9E;&#x5730;&#x5740;&#x4E3A;data-lazy-src
+// &#x5F53;lazy-load-wrap&#x5BB9;&#x5668;&#x8FDB;&#x5165;&#x89C6;&#x53E3;&#xFF0C;&#x5219;&#x5F00;&#x59CB;&#x66FF;&#x6362;&#x5BB9;&#x5668;&#x5185;&#x6240;&#x6709;&#x9700;&#x8981;&#x5EF6;&#x8FDF;&#x52A0;&#x8F7D;&#x7684;&#x56FE;&#x7247;&#x8DEF;&#x5F84;&#xFF0C;&#x5E76;&#x66F4;&#x6539;&#x5BB9;&#x5668;&#x7684;&#x52A0;&#x8F7D;&#x72B6;&#x6001;
+//&#x7B2C;&#x4E00;&#x79CD;&#x65B9;&#x6CD5;
+$.fn.compassLazyLoad=function(){
+  var _HEIGHT=window.innerHeight,
+  _lazyLoadWrap=$(&apos;.lazy-load-wrap&apos;);</p>
+<p>  var methods={</p>
+<pre><code>  setOffsetTop:function(){
+      $.each(_lazyLoadWrap,function(i,n){
+          $(n).attr({
+              &apos;top&apos;:n.offsetTop-_HEIGHT,
+              &apos;status&apos;:&apos;wait&apos;
+          });
+      })
+  },
+  isShow:function(){
+      var _scrollTop=$(window).scrollTop;
+      //&#x5229;&#x7528;image&#x5BB9;&#x5668;&#x5224;&#x65AD;&#x662F;&#x5426;&#x8FDB;&#x5165;&#x89C6;&#x53E3;&#xFF0C;&#x800C;&#x975E;image&#x672C;&#x8EAB;
+      $.each(_lazyLoadWrap,function(){
+          var _that=$(this);
+          if (_that.attr(&apos;status&apos;)===&apos;done&apos;) {
+              return;
+          };
+          if (_that.attr(&apos;top&apos;)&lt;=_scrollTop) {
+              _that.find(&apos;img[data-lazy-src]&apos;).each(function(i,n){
+                  n.src=$(n).data(&apos;lazy-src&apos;);
+              });
+              _that.attr(&apos;status&apos;,&apos;done&apos;);
+          };
+      })
+  },
+  scroll:function(){
+      $(window).on(&apos;scroll&apos;,function(){
+          methods.isShow();
+      });
+  },
+  init:function(){
+      methods.setOffsetTop();
+      methods.isShow();
+      methods.scroll();
+  }
+</code></pre><p>  };
+  methods.init();</p>
+</li>
+</ul>
+<p>}</p>
+<p>//&#x7B2C;&#x4E8C;&#x79CD;&#x65B9;&#x6CD5;</p>
+<p>var exist=(function($){
+    var timer=null,
+    temp=[].slice.call($(&apos;.container&apos;));
+    ret={};</p>
+<pre><code>for(var i=0,len=temp.length-1;i&lt;=len;i++){
+    ret[i]=temp[i];
+}
+var isExist=function(winTop,winEnd){
+    for(var i in ret){
+        console.log(ret);
+        var item=ret[i],
+        eleTop=item.offsetTop,
+        eleEnd=eleTop+item.offsetHeight;
+
+        if((eleTop&gt;winTop&amp;&amp;eleTop&lt;=winEnd)||(eleEnd&gt;winTop&amp;&amp;eleEnd&lt;=winEnd)){
+            $(item).css(&apos;background&apos;,&apos;none&apos;);
+            new Tab($(item).attr(&apos;id&apos;),data).init;
+            delete ret[i];
+        }
+    }
+}
+return {
+    timer:timer;
+    isExist:isExist;
+};
+</code></pre><p>})($);</p>
+<p>//&#x7B2C;&#x4E09;&#x79CD;&#x65B9;&#x6CD5;
+Zepto(function ($) {
+    var swiper = new Swiper(&apos;.swiper-container&apos;, {
+        pagination: &apos;.swiper-pagination&apos;,
+        paginationClickable: true,
+        autoplay: 3000,
+        loop: true,
+        autoplayDisableOnInteraction: false
+    });
+    (function lazyLoad() {
+        var imgs = $(&quot;.lazyLoad&quot;);
+        var src = &apos;&apos;;
+        $.each(imgs, function (index, item) {
+            src = $(item).attr(&apos;data-src&apos;);
+            $(item).attr(&apos;src&apos;, src);
+        });
+    })();
+});
+$(function () {
+    var lazyLoadTimerId = null;
+    /// &#x667A;&#x80FD;&#x52A0;&#x8F7D;&#x4E8B;&#x4EF6;
+    $(window).bind(&quot;scroll&quot;, function () {
+        clearTimeout(lazyLoadTimerId);
+        lazyLoadTimerId = setTimeout(function () {
+            // &#x5EF6;&#x8FDF;&#x52A0;&#x8F7D;&#x6240;&#x6709;&#x56FE;&#x7247;
+            var isHttp = (location.protocol === &quot;http:&quot;);
+            $(&quot;#ym_images img&quot;).each(function () {
+                var self = $(this);
+                if (self.filter(&quot;:above-the-fold&quot;).length &gt; 0) {
+                    var originUrl = self.attr(&quot;data-original&quot;);
+                    self.attr(&quot;src&quot;, originUrl);
+                }
+            });
+        }, 500);
+    });
+});</p>
+<pre><code>
+- &#x67D0;&#x5E74;&#x67D0;&#x6708;&#x7684;1&#x53F7;&#x4E3A;&#x661F;&#x671F;&#x51E0;
+```javascript
+var weekday = [&quot;&#x661F;&#x671F;&#x65E5;&quot;, &quot;&#x661F;&#x671F;&#x4E00;&quot;, &quot;&#x661F;&#x671F;&#x4E8C;&quot;, &quot;&#x661F;&#x671F;&#x4E09;&quot;, &quot;&#x661F;&#x671F;&#x56DB;&quot;, &quot;&#x661F;&#x671F;&#x4E94;&quot;, &quot;&#x661F;&#x671F;&#x516D;&quot;];
+weekday[new Date(2015, 9, 1).getDay()];    //2015&#x5E74;10&#x6708;1&#x53F7;
+</code></pre><h4 id="2-mobile---js">2. Mobile - js</h4>
+<ul>
+<li><a href="http://caibaojian.com/browser-ios-or-android.html" target="_blank">js &#x5224;&#x65AD;IOS, &#x5B89;&#x5353;</a><pre><code class="lang-javascript"><span class="hljs-keyword">var</span> u = navigator.userAgent, app = navigator.appVersion;
+<span class="hljs-keyword">var</span> isAndroid = u.indexOf(<span class="hljs-string">&apos;Android&apos;</span>) &gt; <span class="hljs-number">-1</span> || u.indexOf(<span class="hljs-string">&apos;Linux&apos;</span>) &gt; <span class="hljs-number">-1</span>; <span class="hljs-comment">//android&#x7EC8;&#x7AEF;&#x6216;&#x8005;uc&#x6D4F;&#x89C8;&#x5668;</span>
+<span class="hljs-keyword">var</span> isiOS = !!u.match(<span class="hljs-regexp">/\(i[^;]+;( U;)? CPU.+Mac OS X/</span>); <span class="hljs-comment">//ios&#x7EC8;&#x7AEF;</span>
+alert(<span class="hljs-string">&apos;&#x662F;&#x5426;&#x662F;Android&#xFF1A;&apos;</span>+isAndroid);
+alert(<span class="hljs-string">&apos;&#x662F;&#x5426;&#x662F;iOS&#xFF1A;&apos;</span>+isiOS);
+</code></pre>
+</li>
+</ul>
+<h4 id="3-&#x5FAE;&#x4FE1;-weixin">3. <a href="http://loo2k.com/blog/detecting-wechat-client/" target="_blank">&#x5FAE;&#x4FE1; weixin</a></h4>
+<ul>
+<li><p>UserAgent &#x5224;&#x65AD;&#x5FAE;&#x4FE1;&#x5BA2;&#x6237;&#x7AEF;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// Mozilla/5.0 (iPhone; CPU iPhone OS 8_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Mobile/12F70 MicroMessenger/6.1.5 NetType/WIFI</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">isWechat</span>(<span class="hljs-params"></span>) </span>{  
+  <span class="hljs-keyword">var</span> ua = navigator.userAgent.toLowerCase();
+  <span class="hljs-keyword">return</span> <span class="hljs-regexp">/micromessenger/i</span>.test(ua) || <span class="hljs-regexp">/windows phone/i</span>.test(ua);
+}
+</code></pre>
+</li>
+<li><p>JS&#x63A5;&#x53E3;&#x5B89;&#x5168;&#x57DF;&#x540D;&#x4E0D;&#x586B;&#x5199;&#xFF0C;&#x5206;&#x4EAB;onMenuShareAppMessage&#x76F4;&#x63A5;&#x4F1A;&#x53D6;&#x9ED8;&#x8BA4;&#x503C;&#x3002;</p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// &#x5206;&#x4EAB;onMenuShareAppMessage&#x76F4;&#x63A5;&#x4F1A;&#x53D6;&#x9ED8;&#x8BA4;&#x503C;</span>
+</code></pre>
+</li>
+<li><p>&#x5173;&#x95ED;&#x5F53;&#x524D;&#x9875;&#x9762;</p>
+<pre><code class="lang-javascript">WeixinJSBridge.call(<span class="hljs-string">&apos;closeWindow&apos;</span>);
+</code></pre>
+</li>
+<li><p><a href="http://www.cnblogs.com/true_to_me/p/3565039.html" target="_blank">&#x652F;&#x4ED8;&#x63A5;&#x53E3;&#x65B9;&#x6CD5;&#x8C03;&#x7528;&#x5FC5;&#x987B;&#x5728;addevent&#x91CC;&#x8FB9;&#x8C03;&#x7528;</a></p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">document</span>.addEventListener(<span class="hljs-string">&apos;WeixinJSBridgeReady&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">onBridgeReady</span>(<span class="hljs-params"></span>)</span>{
+  that.initOrder();
+}, <span class="hljs-literal">false</span>);
+</code></pre>
+</li>
+<li><p>&#x652F;&#x4ED8;&#x63A5;&#x53E3;&#x65B9;&#x6CD5;&#x8C03;&#x7528;&#x5FC5;&#x987B;&#x5728;</p>
+<pre><code class="lang-javascript">WeixinJSBridge.invoke(<span class="hljs-string">&apos;getBrandWCPayRequest&apos;</span>, d, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">res</span>)</span>{
+  <span class="hljs-keyword">if</span>(res.err_msg == <span class="hljs-string">&quot;get_brand_wcpay_request:ok&quot;</span>){
+      <span class="hljs-comment">// alert(&quot;&#x652F;&#x4ED8;&#x6210;&#x529F;&quot;);</span>
+      <span class="hljs-comment">// union.release(d.orderId);</span>
+      resetUrl();
+      paySuccess(<span class="hljs-string">&apos;home&apos;</span>, d.orderId);
+  } <span class="hljs-keyword">else</span> {
+      cancelOrder(d.orderId);
+      <span class="hljs-comment">// alert(res.err_msg);</span>
+  }
+  loading.hide();
+});
+</code></pre>
+</li>
+<li><p>&#x7011;&#x5E03;&#x6D41;&#x65E0;&#x9650;&#x52A0;&#x8F7D;&#x5B9E;&#x4F8B; </p>
+<pre><code class="lang-javascript"><span class="hljs-comment">// be dependent on jquery &amp; jquery.infinitescroll.min.js</span>
+<span class="hljs-comment">// insert this &apos;&lt;div id=&quot;more&quot;&gt;&lt;a href=&quot;api?page=&quot;&gt;&lt;/a&gt;&lt;/div&gt;&apos; to your page.html</span>
+(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">$</span>)</span>{
+$(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+    <span class="hljs-keyword">var</span> $container = $(<span class="hljs-string">&apos;.list-wrap-gd&apos;</span>);
+    <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">layOutCallBack</span>(<span class="hljs-params"></span>) </span>{
+        $container.imagesLoaded(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+            $container.masonry({
+                itemSelector: <span class="hljs-string">&apos;.item-bar&apos;</span>,
+                gutter: <span class="hljs-number">10</span>
+            });
+        });
+        $container.imagesLoaded().progress( <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+            $container.masonry(<span class="hljs-string">&apos;layout&apos;</span>);
+        });
+    }
+
+    layOutCallBack();
+
+    $container.infinitescroll({
+        navSelector : <span class="hljs-string">&quot;#more&quot;</span>,
+        nextSelector : <span class="hljs-string">&quot;#more a&quot;</span>,
+        itemSelector : <span class="hljs-string">&quot;.item-bar&quot;</span>,
+        pixelsFromNavToBottom: <span class="hljs-number">300</span>,
+        loading:{
+            img: <span class="hljs-string">&quot;/images/masonry_loading.gif&quot;</span>,
+            msgText: <span class="hljs-string">&apos; &apos;</span>,
+            finishedMsg: <span class="hljs-string">&quot;&lt;em&gt;&#x5DF2;&#x7ECF;&#x5230;&#x6700;&#x540E;&#x4E00;&#x9875;&lt;/em&gt;&quot;</span>,
+            finished: <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+                $(<span class="hljs-string">&quot;#more&quot;</span>).remove();
+                $(<span class="hljs-string">&quot;#infscr-loading&quot;</span>).hide();
+            }
+        },
+        errorCallback:<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+            $(<span class="hljs-built_in">window</span>).unbind(<span class="hljs-string">&apos;.infscr&apos;</span>);
+        },
+        pathParse: <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">path, nextPage</span>) </span>{
+            <span class="hljs-keyword">var</span> query = <span class="hljs-string">&quot;&quot;</span>;
+            <span class="hljs-keyword">var</span> keyword=$(<span class="hljs-string">&quot;#search_keyword&quot;</span>).val();
+            <span class="hljs-keyword">var</span> cat_id=$(<span class="hljs-string">&quot;#cat_id&quot;</span>).val();
+            <span class="hljs-keyword">var</span> brand_id=$(<span class="hljs-string">&quot;#brand_id&quot;</span>).val();
+            <span class="hljs-keyword">var</span> country_id = $(<span class="hljs-string">&quot;#country_id&quot;</span>).val();
+            query = query + <span class="hljs-string">&quot;&amp;namekeyword=&quot;</span>+keyword;
+            query = query +<span class="hljs-string">&quot;&amp;cat_id=&quot;</span>+cat_id
+            query = query + <span class="hljs-string">&quot;&amp;brand_id=&quot;</span> + brand_id; 
+            query = query + <span class="hljs-string">&quot;&amp;country_id=&quot;</span> + country_id;
+            path = [path,query];
+            <span class="hljs-keyword">return</span> path;
+        }
+    },
+
+    <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">newElements</span>) </span>{
+        <span class="hljs-keyword">var</span> $newElems = $( newElements ).css({ opacity: <span class="hljs-number">0</span> });
+        $newElems.imagesLoaded(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+            $newElems.animate({ opacity: <span class="hljs-number">1</span> });
+            $container.masonry( <span class="hljs-string">&apos;appended&apos;</span>, $newElems, <span class="hljs-literal">true</span> );
+            layOutCallBack();
+        });
+    });
+});
+})(jQuery);
+</code></pre>
+</li>
+<li><p><a href="https://www.snip2code.com/Snippet/176582/--iOS-Safari----input---focus-fixed-----" target="_blank">iOS&#xFF0C;Safari&#x6D4F;&#x89C8;&#x5668;&#xFF0C;input&#x7B49;&#x8868;&#x5355;focus&#x540E;fixed&#x5143;&#x7D20;&#x9519;&#x4F4D;&#x95EE;&#x9898;</a>
+```javascript
+if( /iPhone|iPod|iPad/i.test(navigator.userAgent) ) {
+$(document).on(&apos;focus&apos;, &apos;input, textarea&apos;, function()
+{
+   $(&apos;header&apos;).css(&quot;position&quot;, &apos;absolute&apos;);
+   $(&apos;footer&apos;).css(&quot;position&quot;, &apos;absolute&apos;);</p>
+<p>});</p>
+<p>$(document).on(&apos;blur&apos;, &apos;input, textarea&apos;, function()
+{</p>
+<pre><code> $(&apos;header&apos;).css(&quot;position&quot;, &apos;fixed&apos;);
+ $(&apos;footer&apos;).css(&quot;position&quot;, &apos;fixed&apos;);
+</code></pre><p>});
+} </p>
+</li>
+</ul>
+<pre><code>
+- &#x5F97;&#x5230;&#x5730;&#x7406;&#x4F4D;&#x7F6E;
+```javascript
+function getLocation(callback){
+  if(navigator.geolocation){
+      navigator.geolocation.getCurrentPosition(
+              function(p){
+                  callback(p.coords.latitude, p.coords.longitude);
+              },
+              function(e){
+                  var msg = e.code + &quot;\n&quot; + e.message;
+              }
+      );
+  }
+}
+</code></pre><ul>
+<li><p><a href="http://isux.tencent.com/web-app-rem.html" target="_blank">rem&#x8BA1;&#x7B97;&#x9002;&#x914D;</a></p>
+<pre><code class="lang-javascript">(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">doc, win</span>)</span>{
+<span class="hljs-keyword">var</span> docEl = doc.documentElement,
+    resizeEvt = <span class="hljs-string">&apos;orientationchange&apos;</span> <span class="hljs-keyword">in</span> <span class="hljs-built_in">window</span> ? <span class="hljs-string">&apos;orientationchange&apos;</span> : <span class="hljs-string">&apos;resize&apos;</span>,
+    recalc = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+        <span class="hljs-keyword">var</span> clientWidth = docEl.clientWidth;
+        <span class="hljs-keyword">if</span>(!clientWidth) <span class="hljs-keyword">return</span>;
+        docEl.style.fontSize = <span class="hljs-number">20</span> * (clientWidth / <span class="hljs-number">320</span>) + <span class="hljs-string">&apos;px&apos;</span>;
+    };
+
+<span class="hljs-keyword">if</span>(!doc.addEventListener) <span class="hljs-keyword">return</span>;
+win.addEventListener(resizeEvt, recalc, <span class="hljs-literal">false</span>);
+doc.addEventListener(<span class="hljs-string">&apos;DOMContentLoaded&apos;</span>, recalc, <span class="hljs-literal">false</span>);
+})(<span class="hljs-built_in">document</span>, <span class="hljs-built_in">window</span>);
+</code></pre>
+</li>
+<li><p><a href="http://www.html-js.com/article/3041" target="_blank">&#x53E6;&#x5916;&#x4E00;&#x79CD;rem&#x65B9;&#x6848;</a>
+```javascript
+var dpr, rem, scale;
+var docEl = document.documentElement;
+var fontEl = document.createElement(&apos;style&apos;);
+var metaEl = document.querySelector(&apos;meta[name=&quot;viewport&quot;]&apos;);</p>
+</li>
+</ul>
+<p>dpr = window.devicePixelRatio || 1;
+rem = docEl.clientWidth * 2 / 10;
+scale = 1 / dpr;</p>
+<p>// &#x8BBE;&#x7F6E;viewport&#xFF0C;&#x8FDB;&#x884C;&#x7F29;&#x653E;&#xFF0C;&#x8FBE;&#x5230;&#x9AD8;&#x6E05;&#x6548;&#x679C;
+metaEl.setAttribute(&apos;content&apos;, &apos;width=&apos; + dpr * docEl.clientWidth + &apos;,initial-scale=&apos; + scale + &apos;,maximum-scale=&apos; + scale + &apos;, minimum-scale=&apos; + scale + &apos;,user-scalable=no&apos;);</p>
+<p>// &#x8BBE;&#x7F6E;data-dpr&#x5C5E;&#x6027;&#xFF0C;&#x7559;&#x4F5C;&#x7684;css hack&#x4E4B;&#x7528;
+docEl.setAttribute(&apos;data-dpr&apos;, dpr);</p>
+<p>// &#x52A8;&#x6001;&#x5199;&#x5165;&#x6837;&#x5F0F;
+docEl.firstElementChild.appendChild(fontEl);
+fontEl.innerHTML = &apos;html{font-size:&apos; + rem + &apos;px!important;}&apos;;</p>
+<p>// &#x7ED9;js&#x8C03;&#x7528;&#x7684;&#xFF0C;&#x67D0;&#x4E00;dpr&#x4E0B;rem&#x548C;px&#x4E4B;&#x95F4;&#x7684;&#x8F6C;&#x6362;&#x51FD;&#x6570;
+window.rem2px = function(v) {
+    v = parseFloat(v);
+    return v * rem;
+};
+window.px2rem = function(v) {
+    v = parseFloat(v);
+    return v / rem;
+};</p>
+<p>window.dpr = dpr;
+window.rem = rem;</p>
+<pre><code>
+- &#x83B7;&#x53D6;js&#x6240;&#x5728;&#x8DEF;&#x5F84;
+```js
+function getJsDir (src) {
+    var script = null;
+
+    if (src) {
+        script = [].filter.call(document.scripts, function (v) {
+            return v.src.indexOf(src) !== -1;
+        })[0];
+    } else {
+        script = document.scripts[document.scripts.length - 1];
+    }
+
+    return script ? script.src.substr(0, script.src.lastIndexOf(&apos;/&apos;)) : script;
+}
+</code></pre><ul>
+<li><p>&#x4ECE;&#x5168;&#x5C40;&#x6355;&#x83B7;&#x9519;&#x8BEF;</p>
+<pre><code class="lang-js"><span class="hljs-built_in">window</span>.onerror = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">errMsg, scriptURI, lineNumber, columnNumber, errorObj</span>) </span>{
+  setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+      <span class="hljs-keyword">var</span> rst = {
+          <span class="hljs-string">&quot;&#x9519;&#x8BEF;&#x4FE1;&#x606F;&#xFF1A;&quot;</span>: errMsg,
+          <span class="hljs-string">&quot;&#x51FA;&#x9519;&#x6587;&#x4EF6;&#xFF1A;&quot;</span>: scriptURI,
+          <span class="hljs-string">&quot;&#x51FA;&#x9519;&#x884C;&#x53F7;&#xFF1A;&quot;</span>: lineNumber,
+          <span class="hljs-string">&quot;&#x51FA;&#x9519;&#x5217;&#x53F7;&#xFF1A;&quot;</span>: columnNumber,
+          <span class="hljs-string">&quot;&#x9519;&#x8BEF;&#x8BE6;&#x60C5;&#xFF1A;&quot;</span>: errorObj
+      };
+
+      alert(<span class="hljs-built_in">JSON</span>.stringify(rst, <span class="hljs-literal">null</span>, <span class="hljs-number">10</span>));
+  });
+};
+</code></pre>
+</li>
+<li><p><a href="https://www.zhihu.com/question/26228251/answer/32405529" target="_blank">&#x5982;&#x4F55;&#x901A;&#x8FC7; js &#x4FEE;&#x6539;&#x5FAE;&#x4FE1;&#x6D4F;&#x89C8;&#x5668;&#x7684;title?</a></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> $body = $(<span class="hljs-string">&apos;body&apos;</span>);
+<span class="hljs-built_in">document</span>.title = <span class="hljs-string">&apos;title&apos;</span>; <span class="hljs-comment">// hack&#x5728;&#x5FAE;&#x4FE1;&#x7B49;webview&#x4E2D;&#x65E0;&#x6CD5;&#x4FEE;&#x6539;document.title&#x7684;&#x60C5;&#x51B5;    </span>
+<span class="hljs-keyword">var</span> $iframe = $(<span class="hljs-string">&apos;&lt;iframe src=&quot;/favicon.ico&quot;&gt;&lt;/iframe&gt;&apos;</span>).on(<span class="hljs-string">&apos;load&apos;</span>, <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{ 
+  setTimeout(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{ 
+      $iframe.off(<span class="hljs-string">&apos;load&apos;</span>).remove() 
+  }, <span class="hljs-number">0</span>) 
+}).appendTo($body)
+</code></pre>
+</li>
+</ul>
+<h4 id="1-&#x5E38;&#x7528;&#x65B9;&#x6CD5;---js">1. &#x5E38;&#x7528;&#x65B9;&#x6CD5; - js</h4>
+<ul>
+<li><p>&#x5B57;&#x7B26;&#x4E32;&#x957F;&#x5EA6;&#x622A;&#x53D6;</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">cutstr</span>(<span class="hljs-params">str, len</span>) </span>{
+  <span class="hljs-keyword">var</span> temp,
+      icount = <span class="hljs-number">0</span>,
+      patrn = <span class="hljs-regexp">/[^\x00-\xff]/</span>&#xFF0C;
+      strre = <span class="hljs-string">&quot;&quot;</span>;
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; str.length; i++) {
+      <span class="hljs-keyword">if</span> (icount &lt; len - <span class="hljs-number">1</span>) {
+          temp = str.substr(i, <span class="hljs-number">1</span>);
+              <span class="hljs-keyword">if</span> (patrn.exec(temp) == <span class="hljs-literal">null</span>) {
+                 icount = icount + <span class="hljs-number">1</span>
+          } <span class="hljs-keyword">else</span> {
+              icount = icount + <span class="hljs-number">2</span>
+          }
+          strre += temp
+          } <span class="hljs-keyword">else</span> {
+          <span class="hljs-keyword">break</span>;
+      }
+  }
+  <span class="hljs-keyword">return</span> strre + <span class="hljs-string">&quot;...&quot;</span>
+}
+</code></pre>
+</li>
+<li><p>&#x66FF;&#x6362;&#x5168;&#x90E8;</p>
+<pre><code class="lang-js"><span class="hljs-built_in">String</span>.prototype.replaceAll = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">s1, s2</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.replace(<span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(s1, <span class="hljs-string">&quot;gm&quot;</span>), s2)
+}
+<span class="hljs-string">`
+</span></code></pre>
+</li>
+<li><p>&#x6E05;&#x9664;&#x7A7A;&#x683C;</p>
+<pre><code class="lang-js"><span class="hljs-built_in">String</span>.prototype.trim = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+  <span class="hljs-keyword">var</span> reExtraSpace = <span class="hljs-regexp">/^\s*(.*?)\s+$/</span>;
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.replace(reExtraSpace, <span class="hljs-string">&quot;$1&quot;</span>)
+}
+</code></pre>
+</li>
+<li><p>&#x6E05;&#x9664;&#x5DE6;&#x7A7A;&#x683C;/&#x53F3;&#x7A7A;&#x683C;</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ltrim</span>(<span class="hljs-params">s</span>)</span>{ <span class="hljs-keyword">return</span> s.replace( <span class="hljs-regexp">/^(\s*|&#x3000;*)/</span>, <span class="hljs-string">&quot;&quot;</span>); } 
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">rtrim</span>(<span class="hljs-params">s</span>)</span>{ <span class="hljs-keyword">return</span> s.replace( <span class="hljs-regexp">/(\s*|&#x3000;*)$/</span>, <span class="hljs-string">&quot;&quot;</span>); }
+</code></pre>
+</li>
+<li>&#x5224;&#x65AD;&#x662F;&#x5426;&#x4EE5;&#x67D0;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x5F00;&#x5934;<pre><code class="lang-js"><span class="hljs-built_in">String</span>.prototype.startWith = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">s</span>) </span>{
+  <span class="hljs-keyword">return</span> <span class="hljs-keyword">this</span>.indexOf(s) == <span class="hljs-number">0</span>
+}
+</code></pre>
+</li>
+<li>&#x5224;&#x65AD;&#x662F;&#x5426;&#x4EE5;&#x67D0;&#x4E2A;&#x5B57;&#x7B26;&#x4E32;&#x7ED3;&#x675F;    <pre><code class="lang-js"><span class="hljs-built_in">String</span>.prototype.endWith = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params">s</span>) </span>{
+  <span class="hljs-keyword">var</span> d = <span class="hljs-keyword">this</span>.length - s.length;
+  <span class="hljs-keyword">return</span> (d &gt;= <span class="hljs-number">0</span> &amp;&amp; <span class="hljs-keyword">this</span>.lastIndexOf(s) == d)
+}
+</code></pre>
+</li>
+<li>&#x8F6C;&#x4E49;html&#x6807;&#x7B7E;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">HtmlEncode</span>(<span class="hljs-params">text</span>) </span>{
+  <span class="hljs-keyword">return</span> text.replace(<span class="hljs-regexp">/&amp;/g</span>, <span class="hljs-string">&apos;&amp;&apos;</span>).replace(<span class="hljs-regexp">/\&quot;/g</span>, <span class="hljs-string">&apos;&quot;&apos;</span>).replace(<span class="hljs-regexp">/&lt;/g</span>, <span class="hljs-string">&apos;&lt;&apos;</span>).replace(<span class="hljs-regexp">/&gt;/g</span>, <span class="hljs-string">&apos;&gt;&apos;</span>)
+}
+</code></pre>
+</li>
+<li>&#x65F6;&#x95F4;&#x65E5;&#x671F;&#x683C;&#x5F0F;&#x8F6C;&#x6362;<pre><code class="lang-js"><span class="hljs-built_in">Date</span>.prototype.Format = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">formatStr</span>) </span>{
+  <span class="hljs-keyword">var</span> str = formatStr;
+  <span class="hljs-keyword">var</span> Week = [<span class="hljs-string">&apos;&#x65E5;&apos;</span>, <span class="hljs-string">&apos;&#x4E00;&apos;</span>, <span class="hljs-string">&apos;&#x4E8C;&apos;</span>, <span class="hljs-string">&apos;&#x4E09;&apos;</span>, <span class="hljs-string">&apos;&#x56DB;&apos;</span>, <span class="hljs-string">&apos;&#x4E94;&apos;</span>, <span class="hljs-string">&apos;&#x516D;&apos;</span>];
+  str = str.replace(<span class="hljs-regexp">/yyyy|YYYY/</span>, <span class="hljs-keyword">this</span>.getFullYear());
+  str = str.replace(<span class="hljs-regexp">/yy|YY/</span>, (<span class="hljs-keyword">this</span>.getYear() % <span class="hljs-number">100</span>) &gt; <span class="hljs-number">9</span> ? (<span class="hljs-keyword">this</span>.getYear() % <span class="hljs-number">100</span>).toString() : <span class="hljs-string">&apos;0&apos;</span> + (<span class="hljs-keyword">this</span>.getYear() % <span class="hljs-number">100</span>));
+  str = str.replace(<span class="hljs-regexp">/MM/</span>, (<span class="hljs-keyword">this</span>.getMonth() + <span class="hljs-number">1</span>) &gt; <span class="hljs-number">9</span> ? (<span class="hljs-keyword">this</span>.getMonth() + <span class="hljs-number">1</span>).toString() : <span class="hljs-string">&apos;0&apos;</span> + (<span class="hljs-keyword">this</span>.getMonth() + <span class="hljs-number">1</span>));
+  str = str.replace(<span class="hljs-regexp">/M/g</span>, (<span class="hljs-keyword">this</span>.getMonth() + <span class="hljs-number">1</span>));
+  str = str.replace(<span class="hljs-regexp">/w|W/g</span>, Week[<span class="hljs-keyword">this</span>.getDay()]);
+  str = str.replace(<span class="hljs-regexp">/dd|DD/</span>, <span class="hljs-keyword">this</span>.getDate() &gt; <span class="hljs-number">9</span> ? <span class="hljs-keyword">this</span>.getDate().toString() : <span class="hljs-string">&apos;0&apos;</span> + <span class="hljs-keyword">this</span>.getDate());
+  str = str.replace(<span class="hljs-regexp">/d|D/g</span>, <span class="hljs-keyword">this</span>.getDate());
+  str = str.replace(<span class="hljs-regexp">/hh|HH/</span>, <span class="hljs-keyword">this</span>.getHours() &gt; <span class="hljs-number">9</span> ? <span class="hljs-keyword">this</span>.getHours().toString() : <span class="hljs-string">&apos;0&apos;</span> + <span class="hljs-keyword">this</span>.getHours());
+  str = str.replace(<span class="hljs-regexp">/h|H/g</span>, <span class="hljs-keyword">this</span>.getHours());
+  str = str.replace(<span class="hljs-regexp">/mm/</span>, <span class="hljs-keyword">this</span>.getMinutes() &gt; <span class="hljs-number">9</span> ? <span class="hljs-keyword">this</span>.getMinutes().toString() : <span class="hljs-string">&apos;0&apos;</span> + <span class="hljs-keyword">this</span>.getMinutes());
+  str = str.replace(<span class="hljs-regexp">/m/g</span>, <span class="hljs-keyword">this</span>.getMinutes());
+  str = str.replace(<span class="hljs-regexp">/ss|SS/</span>, <span class="hljs-keyword">this</span>.getSeconds() &gt; <span class="hljs-number">9</span> ? <span class="hljs-keyword">this</span>.getSeconds().toString() : <span class="hljs-string">&apos;0&apos;</span> + <span class="hljs-keyword">this</span>.getSeconds());
+  str = str.replace(<span class="hljs-regexp">/s|S/g</span>, <span class="hljs-keyword">this</span>.getSeconds());
+  <span class="hljs-keyword">return</span> str
+}
+</code></pre>
+</li>
+<li>&#x5224;&#x65AD;&#x662F;&#x5426;&#x4E3A;&#x6570;&#x5B57;&#x7C7B;&#x578B;    <pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">isDigit</span>(<span class="hljs-params">value</span>) </span>{
+  <span class="hljs-keyword">var</span> patrn = <span class="hljs-regexp">/^[0-9]*$/</span>;
+  <span class="hljs-keyword">if</span> (patrn.exec(value) == <span class="hljs-literal">null</span> || value == <span class="hljs-string">&quot;&quot;</span>) {
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">false</span>
+  } <span class="hljs-keyword">else</span> {
+      <span class="hljs-keyword">return</span> <span class="hljs-literal">true</span>
+  }
+}
+</code></pre>
+</li>
+<li>&#x8BBE;&#x7F6E;cookie&#x503C;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">setCookie</span>(<span class="hljs-params">name, value, Hours</span>) </span>{
+  <span class="hljs-keyword">var</span> d = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>();
+  <span class="hljs-keyword">var</span> offset = <span class="hljs-number">8</span>;
+  <span class="hljs-keyword">var</span> utc = d.getTime() + (d.getTimezoneOffset() * <span class="hljs-number">60000</span>);
+  <span class="hljs-keyword">var</span> nd = utc + (<span class="hljs-number">3600000</span> * offset);
+  <span class="hljs-keyword">var</span> exp = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>(nd);
+  exp.setTime(exp.getTime() + Hours * <span class="hljs-number">60</span> * <span class="hljs-number">60</span> * <span class="hljs-number">1000</span>);
+  <span class="hljs-built_in">document</span>.cookie = name + <span class="hljs-string">&quot;=&quot;</span> + <span class="hljs-built_in">escape</span>(value) + <span class="hljs-string">&quot;;path=/;expires=&quot;</span> + exp.toGMTString() + <span class="hljs-string">&quot;;domain=360doc.com;&quot;</span>
+}
+</code></pre>
+</li>
+<li>&#x83B7;&#x53D6;cookie&#x503C;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getCookie</span>(<span class="hljs-params">name</span>) </span>{
+  <span class="hljs-keyword">var</span> arr = <span class="hljs-built_in">document</span>.cookie.match(<span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(<span class="hljs-string">&quot;(^| )&quot;</span> + name + <span class="hljs-string">&quot;=([^;]*)(;|$)&quot;</span>));
+  <span class="hljs-keyword">if</span> (arr != <span class="hljs-literal">null</span>) <span class="hljs-keyword">return</span> <span class="hljs-built_in">unescape</span>(arr[<span class="hljs-number">2</span>]);
+  <span class="hljs-keyword">return</span> <span class="hljs-literal">null</span>
+}
+</code></pre>
+</li>
+<li>&#x52A0;&#x8F7D;&#x6837;&#x5F0F;&#x6587;&#x4EF6;&#x8868;    <pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">LoadStyle</span>(<span class="hljs-params">url</span>) </span>{
+  <span class="hljs-keyword">try</span> {
+      <span class="hljs-built_in">document</span>.createStyleSheet(url)
+  } <span class="hljs-keyword">catch</span>(e) {
+      <span class="hljs-keyword">var</span> cssLink = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&apos;link&apos;</span>);
+      cssLink.rel = <span class="hljs-string">&apos;stylesheet&apos;</span>;
+      cssLink.type = <span class="hljs-string">&apos;text/css&apos;</span>;
+      cssLink.href = url;
+      <span class="hljs-keyword">var</span> head = <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">&apos;head&apos;</span>)[<span class="hljs-number">0</span>];
+      head.appendChild(cssLink)
+  }
+}
+</code></pre>
+</li>
+<li>&#x8FD4;&#x56DE;&#x811A;&#x672C;&#x5185;&#x5BB9;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">evalscript</span>(<span class="hljs-params">s</span>) </span>{
+  <span class="hljs-keyword">if</span>(s.indexOf(<span class="hljs-string">&apos;&lt;script&apos;</span>) == <span class="hljs-number">-1</span>) <span class="hljs-keyword">return</span> s;
+  <span class="hljs-keyword">var</span> p = <span class="hljs-regexp">/&lt;script[^\&gt;]*?&gt;([^\x00]*?)&lt;\/script&gt;/ig</span>;
+  <span class="hljs-keyword">var</span> arr = [];
+  <span class="hljs-keyword">while</span>(arr = p.exec(s)) {
+      <span class="hljs-keyword">var</span> p1 = <span class="hljs-regexp">/&lt;script[^\&gt;]*?src=\&quot;([^\&gt;]*?)\&quot;[^\&gt;]*?(reload=\&quot;1\&quot;)?(?:charset=\&quot;([\w\-]+?)\&quot;)?&gt;&lt;\/script&gt;/i</span>;
+      <span class="hljs-keyword">var</span> arr1 = [];
+      arr1 = p1.exec(arr[<span class="hljs-number">0</span>]);
+      <span class="hljs-keyword">if</span>(arr1) {
+          appendscript(arr1[<span class="hljs-number">1</span>], <span class="hljs-string">&apos;&apos;</span>, arr1[<span class="hljs-number">2</span>], arr1[<span class="hljs-number">3</span>]);
+      } <span class="hljs-keyword">else</span> {
+          p1 = <span class="hljs-regexp">/&lt;script(.*?)&gt;([^\x00]+?)&lt;\/script&gt;/i</span>;
+          arr1 = p1.exec(arr[<span class="hljs-number">0</span>]);
+          appendscript(<span class="hljs-string">&apos;&apos;</span>, arr1[<span class="hljs-number">2</span>], arr1[<span class="hljs-number">1</span>].indexOf(<span class="hljs-string">&apos;reload=&apos;</span>) != <span class="hljs-number">-1</span>);
+      }
+  }
+  <span class="hljs-keyword">return</span> s;
+}
+</code></pre>
+</li>
+<li>&#x6E05;&#x9664;&#x811A;&#x672C;&#x5185;&#x5BB9;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">stripscript</span>(<span class="hljs-params">s</span>) </span>{
+  <span class="hljs-keyword">return</span> s.replace(<span class="hljs-regexp">/&lt;script.*?&gt;.*?&lt;\/script&gt;/ig</span>, <span class="hljs-string">&apos;&apos;</span>);
+}
+</code></pre>
+</li>
+<li><p>&#x52A8;&#x6001;&#x52A0;&#x8F7D;&#x811A;&#x672C;&#x6587;&#x4EF6;</p>
+<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">appendscript</span>(<span class="hljs-params">src, text, reload, charset</span>) </span>{
+  <span class="hljs-keyword">var</span> id = hash(src + text);
+  <span class="hljs-keyword">if</span>(!reload &amp;&amp; in_array(id, evalscripts)) <span class="hljs-keyword">return</span>;
+  <span class="hljs-keyword">if</span>(reload &amp;&amp; $(id)) {
+      $(id).parentNode.removeChild($(id));
+  }
+
+  evalscripts.push(id);
+  <span class="hljs-keyword">var</span> scriptNode = <span class="hljs-built_in">document</span>.createElement(<span class="hljs-string">&quot;script&quot;</span>);
+  scriptNode.type = <span class="hljs-string">&quot;text/javascript&quot;</span>;
+  scriptNode.id = id;
+  scriptNode.charset = charset ? charset : (BROWSER.firefox ? <span class="hljs-built_in">document</span>.characterSet : <span class="hljs-built_in">document</span>.charset);
+  <span class="hljs-keyword">try</span> {
+      <span class="hljs-keyword">if</span>(src) {
+          scriptNode.src = src;
+          scriptNode.onloadDone = <span class="hljs-literal">false</span>;
+          scriptNode.onload = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+              scriptNode.onloadDone = <span class="hljs-literal">true</span>;
+              JSLOADED[src] = <span class="hljs-number">1</span>;
+           };
+           scriptNode.onreadystatechange = <span class="hljs-function"><span class="hljs-keyword">function</span> (<span class="hljs-params"></span>) </span>{
+               <span class="hljs-keyword">if</span>((scriptNode.readyState == <span class="hljs-string">&apos;loaded&apos;</span> || scriptNode.readyState == <span class="hljs-string">&apos;complete&apos;</span>) &amp;&amp; !scriptNode.onloadDone) {
+                  scriptNode.onloadDone = <span class="hljs-literal">true</span>;
+                  JSLOADED[src] = <span class="hljs-number">1</span>;
+              }
+           };
+      } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span>(text){
+          scriptNode.text = text;
+      }
+      <span class="hljs-built_in">document</span>.getElementsByTagName(<span class="hljs-string">&apos;head&apos;</span>)[<span class="hljs-number">0</span>].appendChild(scriptNode);
+  } <span class="hljs-keyword">catch</span>(e) {}
+}
+</code></pre>
+</li>
+<li>&#x8FD4;&#x56DE;&#x6309;ID&#x68C0;&#x7D22;&#x7684;&#x5143;&#x7D20;&#x5BF9;&#x8C61;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">$</span>(<span class="hljs-params">id</span>) </span>{
+  <span class="hljs-keyword">return</span> !id ? <span class="hljs-literal">null</span> : <span class="hljs-built_in">document</span>.getElementById(id);
+}
+</code></pre>
+</li>
+<li>&#x68C0;&#x9A8C;URL&#x94FE;&#x63A5;&#x662F;&#x5426;&#x6709;&#x6548;    <pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getUrlState</span>(<span class="hljs-params">URL</span>)</span>{ 
+  <span class="hljs-keyword">var</span> xmlhttp = <span class="hljs-keyword">new</span> ActiveXObject(<span class="hljs-string">&quot;microsoft.xmlhttp&quot;</span>); 
+  xmlhttp.Open(<span class="hljs-string">&quot;GET&quot;</span>,URL, <span class="hljs-literal">false</span>);  
+  <span class="hljs-keyword">try</span>{  
+          xmlhttp.Send(); 
+  }<span class="hljs-keyword">catch</span>(e){
+  }<span class="hljs-keyword">finally</span>{ 
+      <span class="hljs-keyword">var</span> result = xmlhttp.responseText; 
+      <span class="hljs-keyword">if</span>(result){
+          <span class="hljs-keyword">if</span>(xmlhttp.Status==<span class="hljs-number">200</span>){ 
+              <span class="hljs-keyword">return</span>(<span class="hljs-literal">true</span>); 
+           }<span class="hljs-keyword">else</span>{ 
+                 <span class="hljs-keyword">return</span>(<span class="hljs-literal">false</span>); 
+           } 
+       }<span class="hljs-keyword">else</span>{ 
+           <span class="hljs-keyword">return</span>(<span class="hljs-literal">false</span>); 
+       } 
+  }
+}
+</code></pre>
+</li>
+<li>&#x83B7;&#x53D6;&#x5F53;&#x524D;&#x8DEF;&#x5F84;<pre><code class="lang-js"><span class="hljs-keyword">var</span> currentPageUrl = <span class="hljs-string">&quot;&quot;</span>;
+<span class="hljs-keyword">if</span> (<span class="hljs-keyword">typeof</span> <span class="hljs-keyword">this</span>.href === <span class="hljs-string">&quot;undefined&quot;</span>) {
+  currentPageUrl = <span class="hljs-built_in">document</span>.location.toString().toLowerCase();
+}<span class="hljs-keyword">else</span> {
+  currentPageUrl = <span class="hljs-keyword">this</span>.href.toString().toLowerCase();
+}
+</code></pre>
+</li>
+<li>&#x83B7;&#x53D6;&#x9875;&#x9762;&#x9AD8;&#x5EA6;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getPageHeight</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">var</span> g = <span class="hljs-built_in">document</span>, a = g.body, f = g.documentElement, d = g.compatMode == <span class="hljs-string">&quot;BackCompat&quot;</span>
+                  ? a
+                  : g.documentElement;
+  <span class="hljs-keyword">return</span> <span class="hljs-built_in">Math</span>.max(f.scrollHeight, a.scrollHeight, d.clientHeight);
+}
+</code></pre>
+</li>
+<li>&#x83B7;&#x53D6;&#x9875;&#x9762;&#x53EF;&#x89C6;&#x5BBD;&#x5EA6;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getPageViewWidth</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">var</span> d = <span class="hljs-built_in">document</span>, a = d.compatMode == <span class="hljs-string">&quot;BackCompat&quot;</span> ? 
+                        d.body: d.documentElement;
+  <span class="hljs-keyword">return</span> a.clientWidth;
+}
+</code></pre>
+</li>
+<li>&#x83B7;&#x53D6;&#x9875;&#x9762;&#x5BBD;&#x5EA6;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">getPageWidth</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">var</span> g = <span class="hljs-built_in">document</span>, a = g.body, f = g.documentElement, d = g.compatMode == <span class="hljs-string">&quot;BackCompat&quot;</span>?
+                        a: g.documentElement;
+  <span class="hljs-keyword">return</span> <span class="hljs-built_in">Math</span>.max(f.scrollWidth, a.scrollWidth, d.clientWidth);
+}
+</code></pre>
+</li>
+<li>&#x968F;&#x673A;&#x6570;&#x65F6;&#x95F4;&#x6233;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">uniqueId</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">var</span> a=<span class="hljs-built_in">Math</span>.random,b=<span class="hljs-built_in">parseInt</span>;
+  <span class="hljs-keyword">return</span> <span class="hljs-built_in">Number</span>(<span class="hljs-keyword">new</span> <span class="hljs-built_in">Date</span>()).toString()+b(<span class="hljs-number">10</span>*a())+b(<span class="hljs-number">10</span>*a())+b(<span class="hljs-number">10</span>*a());
+}
+</code></pre>
+</li>
+<li>&#x65E5;&#x671F;&#x683C;&#x5F0F;&#x5316;&#x51FD;&#x6570;<pre><code class="lang-js"><span class="hljs-built_in">Date</span>.prototype.format = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params">format</span>)</span>{
+  <span class="hljs-keyword">var</span> o = {
+      <span class="hljs-string">&quot;M+&quot;</span> : <span class="hljs-keyword">this</span>.getMonth()+<span class="hljs-number">1</span>, <span class="hljs-comment">//month</span>
+      <span class="hljs-string">&quot;d+&quot;</span> : <span class="hljs-keyword">this</span>.getDate(),    <span class="hljs-comment">//day</span>
+      <span class="hljs-string">&quot;h+&quot;</span> : <span class="hljs-keyword">this</span>.getHours(),   <span class="hljs-comment">//hour</span>
+      <span class="hljs-string">&quot;m+&quot;</span> : <span class="hljs-keyword">this</span>.getMinutes(), <span class="hljs-comment">//minute</span>
+      <span class="hljs-string">&quot;s+&quot;</span> : <span class="hljs-keyword">this</span>.getSeconds(), <span class="hljs-comment">//second</span>
+      <span class="hljs-string">&quot;q+&quot;</span> : <span class="hljs-built_in">Math</span>.floor((<span class="hljs-keyword">this</span>.getMonth()+<span class="hljs-number">3</span>)/<span class="hljs-number">3</span>),  <span class="hljs-comment">//quarter</span>
+      <span class="hljs-string">&quot;S&quot;</span> : <span class="hljs-keyword">this</span>.getMilliseconds() <span class="hljs-comment">//millisecond</span>
+  };
+  <span class="hljs-keyword">if</span>(<span class="hljs-regexp">/(y+)/</span>.test(format)) format=format.replace(<span class="hljs-built_in">RegExp</span>.$<span class="hljs-number">1</span>,
+(<span class="hljs-keyword">this</span>.getFullYear()+<span class="hljs-string">&quot;&quot;</span>).substr(<span class="hljs-number">4</span> - <span class="hljs-built_in">RegExp</span>.$<span class="hljs-number">1.</span>length));
+  <span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> k <span class="hljs-keyword">in</span> o){
+      <span class="hljs-keyword">if</span>(<span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(<span class="hljs-string">&quot;(&quot;</span>+ k +<span class="hljs-string">&quot;)&quot;</span>).test(format))
+          format = format.replace(<span class="hljs-built_in">RegExp</span>.$<span class="hljs-number">1</span>,<span class="hljs-built_in">RegExp</span>.$<span class="hljs-number">1.</span>length==<span class="hljs-number">1</span> ? o[k] :(<span class="hljs-string">&quot;00&quot;</span>+ o[k]).substr((<span class="hljs-string">&quot;&quot;</span>+ o[k]).length));
+  }
+  <span class="hljs-keyword">return</span> format;
+}
+<span class="hljs-comment">//&#x8C03;&#x7528;</span>
+<span class="hljs-comment">//new Date().format(&quot;yyyy-MM-dd hh:mm:ss&quot;);</span>
+</code></pre>
+</li>
+<li>&#x8FD4;&#x56DE;&#x9876;&#x90E8;&#x7684;&#x901A;&#x7528;&#x65B9;&#x6CD5;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">backTop</span>(<span class="hljs-params">btnId</span>) </span>{
+  <span class="hljs-keyword">var</span> btn = <span class="hljs-built_in">document</span>.getElementById(btnId);
+  <span class="hljs-keyword">var</span> d = <span class="hljs-built_in">document</span>.documentElement;
+  <span class="hljs-keyword">var</span> b = <span class="hljs-built_in">document</span>.body;
+  <span class="hljs-built_in">window</span>.onscroll = set;
+  btn.style.display = <span class="hljs-string">&quot;none&quot;</span>;
+  btn.onclick = <span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+      btn.style.display = <span class="hljs-string">&quot;none&quot;</span>;
+      <span class="hljs-built_in">window</span>.onscroll = <span class="hljs-literal">null</span>;
+      <span class="hljs-keyword">this</span>.timer = setInterval(<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>) </span>{
+          d.scrollTop -= <span class="hljs-built_in">Math</span>.ceil((d.scrollTop + b.scrollTop) * <span class="hljs-number">0.1</span>);
+          b.scrollTop -= <span class="hljs-built_in">Math</span>.ceil((d.scrollTop + b.scrollTop) * <span class="hljs-number">0.1</span>);
+          <span class="hljs-keyword">if</span> ((d.scrollTop + b.scrollTop) == <span class="hljs-number">0</span>) clearInterval(btn.timer, <span class="hljs-built_in">window</span>.onscroll = set);
+          }, <span class="hljs-number">10</span>);
+  };
+  <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">set</span>(<span class="hljs-params"></span>) </span>{
+      btn.style.display = (d.scrollTop + b.scrollTop &gt; <span class="hljs-number">100</span>) ? <span class="hljs-string">&apos;block&apos;</span>: <span class="hljs-string">&quot;none&quot;</span>
+  }
+};
+backTop(<span class="hljs-string">&apos;goTop&apos;</span>);
+</code></pre>
+</li>
+<li>&#x83B7;&#x5F97;URL&#x4E2D;GET&#x53C2;&#x6570;&#x503C;<pre><code class="lang-js"><span class="hljs-comment">// &#x7528;&#x6CD5;&#xFF1A;&#x5982;&#x679C;&#x5730;&#x5740;&#x662F; test.htm?t1=1&amp;t2=2&amp;t3=3, &#x90A3;&#x4E48;&#x80FD;&#x53D6;&#x5F97;&#xFF1A;GET[&quot;t1&quot;], GET[&quot;t2&quot;], GET[&quot;t3&quot;]</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">get_get</span>(<span class="hljs-params"></span>)</span>{ 
+  querystr = <span class="hljs-built_in">window</span>.location.href.split(<span class="hljs-string">&quot;?&quot;</span>)
+  <span class="hljs-keyword">if</span>(querystr[<span class="hljs-number">1</span>]){
+      GETs = querystr[<span class="hljs-number">1</span>].split(<span class="hljs-string">&quot;&amp;&quot;</span>);
+      GET = [];
+      <span class="hljs-keyword">for</span>(i=<span class="hljs-number">0</span>;i&lt;GETs.length;i++){
+            tmp_arr = GETs.split(<span class="hljs-string">&quot;=&quot;</span>)
+            key=tmp_arr[<span class="hljs-number">0</span>]
+            GET[key] = tmp_arr[<span class="hljs-number">1</span>]
+      }
+  }
+  <span class="hljs-keyword">return</span> querystr[<span class="hljs-number">1</span>];
+}
+</code></pre>
+</li>
+<li>&#x6570;&#x7EC4;&#x53BB;&#x91CD;<pre><code class="lang-js"><span class="hljs-built_in">String</span>.prototype.unique=<span class="hljs-function"><span class="hljs-keyword">function</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">var</span> x=<span class="hljs-keyword">this</span>.split(<span class="hljs-regexp">/[\r\n]+/</span>);
+  <span class="hljs-keyword">var</span> y=<span class="hljs-string">&apos;&apos;</span>;
+  <span class="hljs-keyword">for</span>(<span class="hljs-keyword">var</span> i=<span class="hljs-number">0</span>;i&lt;x.length;i++){
+      <span class="hljs-keyword">if</span>(!<span class="hljs-keyword">new</span> <span class="hljs-built_in">RegExp</span>(<span class="hljs-string">&quot;^&quot;</span>+x.replace(<span class="hljs-regexp">/([^\w])/ig</span>,<span class="hljs-string">&quot;\\$1&quot;</span>)+<span class="hljs-string">&quot;$&quot;</span>,<span class="hljs-string">&quot;igm&quot;</span>).test(y)){
+          y+=x+<span class="hljs-string">&quot;\r\n&quot;</span>
+      }
+  }
+  <span class="hljs-keyword">return</span> y
+};
+</code></pre>
+</li>
+<li>&#x6309;&#x5B57;&#x5178;&#x987A;&#x5E8F;&#xFF0C;&#x5BF9;&#x6BCF;&#x884C;&#x8FDB;&#x884C;&#x6570;&#x7EC4;&#x6392;&#x5E8F;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">SetSort</span>(<span class="hljs-params"></span>)</span>{
+  <span class="hljs-keyword">var</span> text=K1.value.split(<span class="hljs-regexp">/[\r\n]/</span>).sort().join(<span class="hljs-string">&quot;\r\n&quot;</span>);<span class="hljs-comment">//&#x987A;&#x5E8F;</span>
+  <span class="hljs-keyword">var</span> test=K1.value.split(<span class="hljs-regexp">/[\r\n]/</span>).sort().reverse().join(<span class="hljs-string">&quot;\r\n&quot;</span>);<span class="hljs-comment">//&#x53CD;&#x5E8F;</span>
+  K1.value=K1.value!=text?text:test;
+}
+</code></pre>
+</li>
+<li>&#x5B57;&#x7B26;&#x4E32;&#x53CD;&#x5E8F;&#x8F93;&#x51FA;<pre><code class="lang-js"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">IsReverse</span>(<span class="hljs-params">text</span>)</span>{
+  <span class="hljs-keyword">return</span> text.split(<span class="hljs-string">&apos;&apos;</span>).reverse().join(<span class="hljs-string">&apos;&apos;</span>);
+}
+</code></pre>
+</li>
+<li>&#x91D1;&#x989D;&#x5927;&#x5199;&#x8F6C;&#x6362;&#x51FD;&#x6570;<pre><code class="lang-js"><span class="hljs-comment">//&#x683C;&#x5F0F;&#x8F6C;&#x6362;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">transform</span>(<span class="hljs-params">tranvalue</span>) </span>{
+  <span class="hljs-keyword">try</span> {
+      <span class="hljs-keyword">var</span> i = <span class="hljs-number">1</span>;
+      <span class="hljs-keyword">var</span> dw2 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Array</span>(<span class="hljs-string">&quot;&quot;</span>, <span class="hljs-string">&quot;&#x4E07;&quot;</span>, <span class="hljs-string">&quot;&#x4EBF;&quot;</span>); <span class="hljs-comment">//&#x5927;&#x5355;&#x4F4D;</span>
+      <span class="hljs-keyword">var</span> dw1 = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Array</span>(<span class="hljs-string">&quot;&#x62FE;&quot;</span>, <span class="hljs-string">&quot;&#x4F70;&quot;</span>, <span class="hljs-string">&quot;&#x4EDF;&quot;</span>); <span class="hljs-comment">//&#x5C0F;&#x5355;&#x4F4D;</span>
+      <span class="hljs-keyword">var</span> dw = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Array</span>(<span class="hljs-string">&quot;&#x96F6;&quot;</span>, <span class="hljs-string">&quot;&#x58F9;&quot;</span>, <span class="hljs-string">&quot;&#x8D30;&quot;</span>, <span class="hljs-string">&quot;&#x53C1;&quot;</span>, <span class="hljs-string">&quot;&#x8086;&quot;</span>, <span class="hljs-string">&quot;&#x4F0D;&quot;</span>, <span class="hljs-string">&quot;&#x9646;&quot;</span>, <span class="hljs-string">&quot;&#x67D2;&quot;</span>, <span class="hljs-string">&quot;&#x634C;&quot;</span>, <span class="hljs-string">&quot;&#x7396;&quot;</span>); <span class="hljs-comment">//&#x6574;&#x6570;&#x90E8;&#x5206;&#x7528;</span>
+      <span class="hljs-comment">//&#x4EE5;&#x4E0B;&#x662F;&#x5C0F;&#x5199;&#x8F6C;&#x6362;&#x6210;&#x5927;&#x5199;&#x663E;&#x793A;&#x5728;&#x5408;&#x8BA1;&#x5927;&#x5199;&#x7684;&#x6587;&#x672C;&#x6846;&#x4E2D;     </span>
+      <span class="hljs-comment">//&#x5206;&#x79BB;&#x6574;&#x6570;&#x4E0E;&#x5C0F;&#x6570;</span>
+      <span class="hljs-keyword">var</span> source = splits(tranvalue);
+      <span class="hljs-keyword">var</span> num = source[<span class="hljs-number">0</span>];
+      <span class="hljs-keyword">var</span> dig = source[<span class="hljs-number">1</span>];
+      <span class="hljs-comment">//&#x8F6C;&#x6362;&#x6574;&#x6570;&#x90E8;&#x5206;</span>
+      <span class="hljs-keyword">var</span> k1 = <span class="hljs-number">0</span>; <span class="hljs-comment">//&#x8BA1;&#x5C0F;&#x5355;&#x4F4D;</span>
+      <span class="hljs-keyword">var</span> k2 = <span class="hljs-number">0</span>; <span class="hljs-comment">//&#x8BA1;&#x5927;&#x5355;&#x4F4D;</span>
+      <span class="hljs-keyword">var</span> sum = <span class="hljs-number">0</span>;
+      <span class="hljs-keyword">var</span> str = <span class="hljs-string">&quot;&quot;</span>;
+      <span class="hljs-keyword">var</span> len = source[<span class="hljs-number">0</span>].length; <span class="hljs-comment">//&#x6574;&#x6570;&#x7684;&#x957F;&#x5EA6;</span>
+      <span class="hljs-keyword">for</span> (i = <span class="hljs-number">1</span>; i &lt;= len; i++) {
+            <span class="hljs-keyword">var</span> n = source[<span class="hljs-number">0</span>].charAt(len - i); <span class="hljs-comment">//&#x53D6;&#x5F97;&#x67D0;&#x4E2A;&#x4F4D;&#x6570;&#x4E0A;&#x7684;&#x6570;&#x5B57;</span>
+            <span class="hljs-keyword">var</span> bn = <span class="hljs-number">0</span>;
+            <span class="hljs-keyword">if</span> (len - i - <span class="hljs-number">1</span> &gt;= <span class="hljs-number">0</span>) {
+              bn = source[<span class="hljs-number">0</span>].charAt(len - i - <span class="hljs-number">1</span>); <span class="hljs-comment">//&#x53D6;&#x5F97;&#x67D0;&#x4E2A;&#x4F4D;&#x6570;&#x524D;&#x4E00;&#x4F4D;&#x4E0A;&#x7684;&#x6570;&#x5B57;</span>
+            }
+            sum = sum + <span class="hljs-built_in">Number</span>(n);
+            <span class="hljs-keyword">if</span> (sum != <span class="hljs-number">0</span>) {
+              str = dw[<span class="hljs-built_in">Number</span>(n)].concat(str); <span class="hljs-comment">//&#x53D6;&#x5F97;&#x8BE5;&#x6570;&#x5B57;&#x5BF9;&#x5E94;&#x7684;&#x5927;&#x5199;&#x6570;&#x5B57;&#xFF0C;&#x5E76;&#x63D2;&#x5165;&#x5230;str&#x5B57;&#x7B26;&#x4E32;&#x7684;&#x524D;&#x9762;</span>
+              <span class="hljs-keyword">if</span> (n == <span class="hljs-string">&apos;0&apos;</span>) sum = <span class="hljs-number">0</span>;
+            }
+            <span class="hljs-keyword">if</span> (len - i - <span class="hljs-number">1</span> &gt;= <span class="hljs-number">0</span>) { <span class="hljs-comment">//&#x5728;&#x6570;&#x5B57;&#x8303;&#x56F4;&#x5185;</span>
+              <span class="hljs-keyword">if</span> (k1 != <span class="hljs-number">3</span>) { <span class="hljs-comment">//&#x52A0;&#x5C0F;&#x5355;&#x4F4D;</span>
+                    <span class="hljs-keyword">if</span> (bn != <span class="hljs-number">0</span>) {
+                      str = dw1[k1].concat(str);
+                    }
+                    k1++;
+              } <span class="hljs-keyword">else</span> { <span class="hljs-comment">//&#x4E0D;&#x52A0;&#x5C0F;&#x5355;&#x4F4D;&#xFF0C;&#x52A0;&#x5927;&#x5355;&#x4F4D;</span>
+                    k1 = <span class="hljs-number">0</span>;
+                    <span class="hljs-keyword">var</span> temp = str.charAt(<span class="hljs-number">0</span>);
+                    <span class="hljs-keyword">if</span> (temp == <span class="hljs-string">&quot;&#x4E07;&quot;</span> || temp == <span class="hljs-string">&quot;&#x4EBF;&quot;</span>) <span class="hljs-comment">//&#x82E5;&#x5927;&#x5355;&#x4F4D;&#x524D;&#x6CA1;&#x6709;&#x6570;&#x5B57;&#x5219;&#x820D;&#x53BB;&#x5927;&#x5355;&#x4F4D;</span>
+                    str = str.substr(<span class="hljs-number">1</span>, str.length - <span class="hljs-number">1</span>);
+                    str = dw2[k2].concat(str);
+                    sum = <span class="hljs-number">0</span>;
+              }
+            }
+            <span class="hljs-keyword">if</span> (k1 == <span class="hljs-number">3</span>){ <span class="hljs-comment">//&#x5C0F;&#x5355;&#x4F4D;&#x5230;&#x5343;&#x5219;&#x5927;&#x5355;&#x4F4D;&#x8FDB;&#x4E00;</span>
+              k2++;
+            }
+      }
+      <span class="hljs-comment">//&#x8F6C;&#x6362;&#x5C0F;&#x6570;&#x90E8;&#x5206;</span>
+      <span class="hljs-keyword">var</span> strdig = <span class="hljs-string">&quot;&quot;</span>;
+      <span class="hljs-keyword">if</span> (dig != <span class="hljs-string">&quot;&quot;</span>) {
+            <span class="hljs-keyword">var</span> n = dig.charAt(<span class="hljs-number">0</span>);
+            <span class="hljs-keyword">if</span> (n != <span class="hljs-number">0</span>) {
+              strdig += dw[<span class="hljs-built_in">Number</span>(n)] + <span class="hljs-string">&quot;&#x89D2;&quot;</span>; <span class="hljs-comment">//&#x52A0;&#x6570;&#x5B57;</span>
+            }
+            <span class="hljs-keyword">var</span> n = dig.charAt(<span class="hljs-number">1</span>);
+            <span class="hljs-keyword">if</span> (n != <span class="hljs-number">0</span>) {
+              strdig += dw[<span class="hljs-built_in">Number</span>(n)] + <span class="hljs-string">&quot;&#x5206;&quot;</span>; <span class="hljs-comment">//&#x52A0;&#x6570;&#x5B57;</span>
+            }
+      }
+      str += <span class="hljs-string">&quot;&#x5143;&quot;</span> + strdig;
+  } <span class="hljs-keyword">catch</span>(e) {
+      <span class="hljs-keyword">return</span> <span class="hljs-string">&quot;0&#x5143;&quot;</span>;
+  }
+  <span class="hljs-keyword">return</span> str;
+}
+<span class="hljs-comment">//&#x62C6;&#x5206;&#x6574;&#x6570;&#x4E0E;&#x5C0F;&#x6570;</span>
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">splits</span>(<span class="hljs-params">tranvalue</span>) </span>{
+  <span class="hljs-keyword">var</span> value = <span class="hljs-keyword">new</span> <span class="hljs-built_in">Array</span>(<span class="hljs-string">&apos;&apos;</span>, <span class="hljs-string">&apos;&apos;</span>);
+  temp = tranvalue.split(<span class="hljs-string">&quot;.&quot;</span>);
+  <span class="hljs-keyword">for</span> (<span class="hljs-keyword">var</span> i = <span class="hljs-number">0</span>; i &lt; temp.length; i++) {
+      value = temp;
+  }
+  <span class="hljs-keyword">return</span> value;
+}
+</code></pre>
+</li>
+</ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="vuejs.html" class="navigation navigation-prev " aria-label="Previous page: 第2章-Vue群规">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="css.html" class="navigation navigation-next " aria-label="Next page: 第4章-CSS常用代码">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"第3章-JS常用代码","level":"1.4","depth":1,"next":{"title":"第4章-CSS常用代码","level":"1.5","depth":1,"path":"css.md","ref":"css.md","articles":[]},"previous":{"title":"第2章-Vue群规","level":"1.3","depth":1,"path":"vuejs.md","ref":"vuejs.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["livereload"],"pluginsConfig":{"livereload":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"js.md","mtime":"2015-12-30T14:17:54.386Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-02-27T15:11:53.358Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
