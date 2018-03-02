@@ -836,3 +836,58 @@ function transform(tranvalue) {
     return str;
 }
 ```
+- 数组扁平化
+```js
+function flatten(arr){
+	var i,ret=[], len = arr.length;
+	for(i=0;i<len;i++){
+		if(Array.isArray(arr[i])){			
+			ret = ret.concat(flatten(arr[i]))
+		}else{
+			ret.push(arr[i])
+		}
+		
+	}
+	return ret
+}
+//[1, [2, [ [3, 4], 5], 6]] => [1, 2, 3, 4, 5, 6]
+```
+- 字符串驼峰化
+```js
+/**
+ * Camelize a string, cutting the string by multiple separators like
+ * hyphens, underscores and spaces.
+ * 
+ * @param {text} string Text to camelize
+ * @return string Camelized text
+ */
+function camelize(text) {
+    return text.replace(/^([A-Z])|[\s-_]+(\w)/g, function(match, p1, p2, offset) {
+        if (p2) return p2.toUpperCase();
+        return p1.toLowerCase();        
+    });
+}
+// camelize("some_database_field_name")->'someDatabaseFieldName';
+// camelize("Some label that needs to be camelized")-> 'someLabelThatNeedsToBeCamelized';
+// camelize("some-javascript-property")->'someJavascriptProperty';
+// camelize("some-mixed_string with spaces_underscores-and-hyphens")->'someMixedStringWithSpacesUnderscoresAndHyphens';
+```
+- 字符串反驼峰化
+```js
+/**
+ * Decamelizes a string with/without a custom separator (underscore by default).
+ * 
+ * @param str String in camelcase
+ * @param separator Separator for the new decamelized string.
+ */
+function decamelize(str, separator){
+	separator = typeof separator === 'undefined' ? '_' : separator;
+	return str
+        .replace(/([a-z\d])([A-Z])/g, '$1' + separator + '$2')
+        .replace(/([A-Z]+)([A-Z][a-z\d]+)/g, '$1' + separator + '$2')
+        .toLowerCase();
+}
+// ecamelize("someDatabaseFieldName", " ")->'some database field name';
+// decamelize("someLabelThatNeedsToBeCamelized", "-")->'some-label-that-needs-to-be-camelized';
+// decamelize("someJavascriptProperty", "_")->'some_javascript_property';
+```
