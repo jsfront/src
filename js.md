@@ -185,7 +185,7 @@ function $(selector, el) {
 }
 ```
 - 获取多个dom元素
-```
+```js
 function $$(selector, el) {
   if (!el) {
     el = document;
