@@ -398,6 +398,20 @@ function getJsDir (src) {
     return script ? script.src.substr(0, script.src.lastIndexOf('/')) : script;
 }
 ```
+- 页面加载自执行函数
+```
+function addload(func) {
+  var old = window.onload;
+  if (typeof window.onload != "function") {
+    window.onload = func;
+  } else {
+    window.onload = function () {
+      old();
+      func();
+    }
+  }
+}
+```
 
 - 从全局捕获错误
 ```js
