@@ -491,7 +491,7 @@ function getJsDir (src) {
 }
 ```
 - 页面加载自执行函数
-```
+```js
 function addload(func) {
   var old = window.onload;
   if (typeof window.onload != "function") {
@@ -899,7 +899,7 @@ String.prototype.unique=function(){
 };
 ```
 - 删除数组中某个元素
-```
+```js
 Array.prototype.remove = function (val) {
   var index = this.indexOf(val);
   if (index > -1) {
