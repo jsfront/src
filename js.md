@@ -175,6 +175,117 @@ function isWechat() {
     return /micromessenger/i.test(ua) || /windows phone/i.test(ua);
 }
 ```
+- 获取单个dom元素
+```js
+function $(selector, el) {
+  if (!el) {
+    el = document;
+  }
+  return el.querySelector(selector);
+}
+```
+- 获取多个dom元素
+```
+function $$(selector, el) {
+  if (!el) {
+    el = document;
+  }
+  return el.querySelectorAll(selector);
+  // Note: the returned object is a NodeList.
+  // If you'd like to convert it to a Array for convenience, use this instead:
+  // return Array.prototype.slice.call(el.querySelectorAll(selector));
+}
+```
+- 将nodeList集合转换为数组
+```js
+function convertToArray(nodeList) {
+  var array = null
+  try {
+    // IE8-NodeList是COM对象
+    array = Array.prototype.slice.call(nodeList, 0)
+  } catch (err) {
+    array = []
+    for (var i = 0, len = nodeList.length; i < len; i++) {
+      array.push(nodeList[i])
+    }
+  }
+  return array
+}
+```
+- ajax函数
+```js
+function ajax(setting) {
+  //设置参数的初始值
+  var opts = {
+    method: (setting.method || "GET").toUpperCase(), //请求方式
+    url: setting.url || "", // 请求地址
+    async: setting.async || true, // 是否异步
+    dataType: setting.dataType || "json", // 解析方式
+    data: setting.data || "", // 参数
+    success: setting.success || function () { }, // 请求成功回调
+    error: setting.error || function () { } // 请求失败回调
+  };
+
+  // 参数格式化
+  function params_format(obj) {
+    var str = "";
+    for (var i in obj) {
+      str += i + "=" + obj[i] + "&";
+    }
+    return str
+      .split("")
+      .slice(0, -1)
+      .join("");
+  }
+
+  // 创建ajax对象
+  var xhr = new XMLHttpRequest();
+
+  // 连接服务器open(方法GET/POST，请求地址， 异步传输)
+  if (opts.method == "GET") {
+    xhr.open(
+      opts.method,
+      opts.url + "?" + params_format(opts.data),
+      opts.async
+    );
+    xhr.send();
+  } else {
+    xhr.open(opts.method, opts.url, opts.async);
+    xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    xhr.send(opts.data);
+  }
+
+  /*
+  ** 每当readyState改变时，就会触发onreadystatechange事件
+  ** readyState属性存储有XMLHttpRequest的状态信息
+  ** 0 ：请求未初始化
+  ** 1 ：服务器连接已建立
+  ** 2 ：请求已接受
+  ** 3 : 请求处理中
+  ** 4 ：请求已完成，且相应就绪
+  */
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4 && (xhr.status === 200 || xhr.status === 304)) {
+      switch (opts.dataType) {
+        case "json":
+          var json = JSON.parse(xhr.responseText);
+          opts.success(json);
+          break;
+        case "xml":
+          opts.success(xhr.responseXML);
+          break;
+        default:
+          opts.success(xhr.responseText);
+          break;
+      }
+    }
+  };
+
+  xhr.onerror = function (err) {
+    opts.error(err);
+  };
+}
+```
 
 - JS接口安全域名不填写，分享onMenuShareAppMessage直接会取默认值。
 ```javascript
@@ -362,26 +473,7 @@ window.px2rem = function(v) {
 window.dpr = dpr;
 window.rem = rem;
 ```
-- 导入js或css文件
-```js
-function delay_js(url) {
-  var type = url.split(".")
-    , file = type[type.length - 1];
-  if (file == "css") {
-    var obj = document.createElement("link")
-      , lnk = "href"
-      , tp = "text/css";
-    obj.setAttribute("rel", "stylesheet");
-  } else
-    var obj = document.createElement("script")
-      , lnk = "src"
-      , tp = "text/javascript";
-  obj.setAttribute(lnk, url);
-  obj.setAttribute("type", tp);
-  file == "css" ? document.getElementsByTagName("head")[0].appendChild(obj) : document.body.appendChild(obj);
-  return obj;
-}
-```
+
 - 获取js所在路径
 ```js
 function getJsDir (src) {
@@ -639,6 +731,26 @@ function appendscript(src, text, reload, charset) {
         }
         document.getElementsByTagName('head')[0].appendChild(scriptNode);
     } catch(e) {}
+}
+```
+- 动态加载js或css文件
+```js
+function delay_js(url) {
+  var type = url.split(".")
+    , file = type[type.length - 1];
+  if (file == "css") {
+    var obj = document.createElement("link")
+      , lnk = "href"
+      , tp = "text/css";
+    obj.setAttribute("rel", "stylesheet");
+  } else
+    var obj = document.createElement("script")
+      , lnk = "src"
+      , tp = "text/javascript";
+  obj.setAttribute(lnk, url);
+  obj.setAttribute("type", tp);
+  file == "css" ? document.getElementsByTagName("head")[0].appendChild(obj) : document.body.appendChild(obj);
+  return obj;
 }
 ```
 - 返回按ID检索的元素对象
