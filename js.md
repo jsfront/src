@@ -362,7 +362,26 @@ window.px2rem = function(v) {
 window.dpr = dpr;
 window.rem = rem;
 ```
-
+- 导入js或css文件
+```js
+function delay_js(url) {
+  var type = url.split(".")
+    , file = type[type.length - 1];
+  if (file == "css") {
+    var obj = document.createElement("link")
+      , lnk = "href"
+      , tp = "text/css";
+    obj.setAttribute("rel", "stylesheet");
+  } else
+    var obj = document.createElement("script")
+      , lnk = "src"
+      , tp = "text/javascript";
+  obj.setAttribute(lnk, url);
+  obj.setAttribute("type", tp);
+  file == "css" ? document.getElementsByTagName("head")[0].appendChild(obj) : document.body.appendChild(obj);
+  return obj;
+}
+```
 - 获取js所在路径
 ```js
 function getJsDir (src) {
