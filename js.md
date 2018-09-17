@@ -717,12 +717,7 @@ function isValidDate(value, userFormat='mm/dd/yyyy') {
 - 判断是否为数字类型	
 ```js
 function isDigit(value) {
-    var patrn = /^[0-9]*$/;
-    if (patrn.exec(value) == null || value == "") {
-        return false
-    } else {
-        return true
-    }
+    return /^\d+$/.test(value);
 }
 ```
 - 判断具体类型	
