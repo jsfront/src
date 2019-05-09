@@ -403,6 +403,7 @@ vue-1群：364912432
     - https://github.com/iview/iview-admin
     - https://github.com/sendya/ant-design-pro-vue
     - https://github.com/iczer/vue-antd-admin
+    - https://github.com/lin-xin/vue-manage-system
     
 ----------
     
