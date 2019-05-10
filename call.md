@@ -406,4 +406,24 @@ vue-1群：364912432
     - https://github.com/lin-xin/vue-manage-system
     
 ----------
+
+- call:flutter  
+Hybrid App 群号：498173484
+
+    - https://github.com/flutter
+    flutter
+    - https://github.com/Solido/awesome-flutter
+    awesome-flutter
+    - https://flutterchina.club
+    Flutter中文网
+    - https://github.com/yuhanle/awesome-flutter-app
+    Flutter 开发资源汇总
+    - https://github.com/crazycodeboy/awesome-flutter-cn
+    Flutter学习资源
+    - https://github.com/alibaba/flutter-go
+    flutter 开发者帮助 APP
+    - https://github.com/iampawan/FlutterExampleApps
+    FlutterExampleApps
     
+----------
+        
