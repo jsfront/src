@@ -325,6 +325,8 @@ react-1群：530415177
     react.js amazeui UI
     - http://ant.design/
     ant.design
+    - http://huziketang.mangojuice.top/books/react/
+    React.js 小书
     
 ----------
 
