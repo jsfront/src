@@ -317,6 +317,8 @@ react-1群：530415177
     react.js 官方网址
     - https://facebook.github.io/react/docs/getting-started.html
     react.js 官方文档
+    - https://zh-hans.reactjs.org/
+    React 中文文档
     - http://material-ui.com/#/
     react.js material UI
     - http://touchstonejs.io/
@@ -327,6 +329,7 @@ react-1群：530415177
     ant.design
     - http://huziketang.mangojuice.top/books/react/
     React.js 小书
+    
     
 ----------
 
