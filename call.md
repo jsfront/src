@@ -436,3 +436,18 @@ Hybrid App 群号：498173484
     
 ----------
         
+- call:mac        
+
+
+  - https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md
+    Awesome Mac
+  - https://github.com/iCHAIT/awesome-macOS
+    awesome-macOS
+  - https://github.com/Louiszhai/tool
+    开发效率提升：Mac生产力工具链推荐
+
+----------
+        
+- call:windows        
+
+  - https://github.com/Awesome-Windows/Awesome
