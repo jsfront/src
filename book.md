@@ -25,6 +25,7 @@
 - [实战ES2015：深入现代JavaScript 应用开发](http://product.china-pub.com/5006875)
 - [深入理解ES6](http://product.china-pub.com/6011498)
 - [你不知道的JavaScript(下卷)](http://product.china-pub.com/7159257)
+- [深入理解JavaScript特性](http://product.china-pub.com/8059620)
 
 # 2. Nodejs
 - [Node.js项目实践：构建可扩展的Web应用](http://item.jd.com/11688177.html)
