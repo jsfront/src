@@ -464,6 +464,18 @@ Hybrid App 群号：498173484
     FlutterExampleApps
     
 ----------
+
+- call:angular  
+Angular-1群 238251402
+
+    - https://github.com/jsfront/angular2.0-study
+    - https://github.com/kittencup/angular2-learning-cn
+      Angular 2 中文资料汇总(文章，视频，教程);
+    - https://github.com/gianarb/awesome-angularjs
+    - https://github.com/AngularClass/awesome-angular2
+      Angular 资料汇总
+    
+----------
         
 - call:mac        
 
