@@ -359,6 +359,24 @@ react-1群：530415177
     
 ----------
 
+
+- call:react-admin  
+react-1群：530415177
+
+    - https://github.com/huzzbuzz/bear-admin
+    
+----------
+        
+- call:react-awesome               
+
+  - https://github.com/enaqx/awesome-react
+  - https://github.com/Pines-Cheng/awesome-react-cn
+  - https://github.com/brillout/awesome-react-components
+  - https://github.com/rehooks/awesome-react-hooks
+  
+      
+----------
+
 - call:vue  
 vue-1群：364912432
 
@@ -442,6 +460,18 @@ vue-1群：364912432
     京东风格的轻量级移动端Vue组件库
     - https://www.heyui.top/
     一个妹子写的组件库
+     
+        
+----------
+
+- call:vue-auth  
+
+    - https://juejin.im/post/5d22bac55188255d7439ad5a
+    Vue 实现前端权限控制
+    - https://juejin.im/post/5b5bfd5b6fb9a04fdd7d687a
+    vue权限路由实现方式总结
+    - https://www.zhihu.com/question/58991978
+    Vue 后台管理控制用户权限的解决方案
      
         
 ----------
@@ -532,3 +562,44 @@ Angular-1群 238251402
    你要的Vue面试题都在这里
   - https://juejin.im/post/5d153267e51d4510624f9809
    vue 220+个知识点（面试题）为你保驾护航
+  - https://juejin.im/entry/5d06ce32e51d4510a50335bd)
+   [译] 送你 43 道 JavaScript 面试题
+  - https://juejin.im/post/5d1d52aff265da1bb2774de0
+   面试官到底想看什么样的简历？
+  - https://juejin.im/post/5d23e750f265da1b855c7bbe
+   前端 100 问
+    
+----------
+        
+- call:js-demo        
+
+  - https://www.zhihu.com/question/64898551
+  作为程序员，你有哪些正在做的个人项目？
+  - https://www.zhihu.com/question/25117994
+  用 JavaScript 写个什么有意思的小东西？
+  - http://demo.aijc.net/#all
+  demo页
+  - https://github.com/FairyEver/study-javascript
+  - https://github.com/sunhaoxiang/js-practice
+  - https://github.com/MrRetro/Demo
+  js的小练习
+  - https://miaov.com/index.php/example/exampleList
+  学员作品
+  - https://www.kancloud.cn/jikeytang/qq/81141
+  个人作品
+  扩展了解：
+  - http://www.cnblogs.com/tk091/p/3421571.html
+  一万个小时训练
+  - http://gold.xitu.io/post/58282fe0da2f600056dbdc58
+  前端的10000小时
+  - https://baike.baidu.com/item/%E7%95%AA%E8%8C%84%E5%B7%A5%E4%BD%9C%E6%B3%95
+  番茄工作法
+  - https://item.jd.com/11569295.html
+  高效能人士的七个习惯（25周年纪念版）
+    
+----------
+        
+- call:wxapp-shop           
+
+  - https://github.com/linlinjava/litemall
+  Spring Boot后端 + Vue + 微信小程序小商城
