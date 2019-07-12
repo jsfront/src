@@ -535,6 +535,32 @@ Angular-1群 238251402
     
 ----------
         
+- call:interview        
+
+  - https://awesome-interview.github.io/Awesome-Interview/
+  Awesome Interview
+  - https://github.com/MaximAbramchuck/awesome-interview-questions
+  awesome-interview-questions
+  - https://github.com/ityouknow/awesome-interviews
+  awesome-interviews
+
+    
+----------
+        
+- call:java-interview        
+
+  - https://github.com/Snailclimb/JavaGuide
+  【Java学习+面试指南】 一份涵盖大部分Java程序员所需要掌握的核心知识
+  - https://segmentfault.com/a/1190000016172470
+  史上最全阿里 Java 面试题总结
+  - https://juejin.im/entry/5af2557c6fb9a07aa83eb59c
+  2018年最新Java面试题及答案整理
+  - https://juejin.im/post/5a99544ef265da23a334ab6c
+  超详细的Java面试题总结（三）之Java集合篇常见问题
+
+            
+----------
+        
 - call:js-interview        
 
   - https://github.com/rohan-paul/Awesome-JavaScript-Interviews
@@ -603,3 +629,13 @@ Angular-1群 238251402
 
   - https://github.com/linlinjava/litemall
   Spring Boot后端 + Vue + 微信小程序小商城
+      
+----------
+        
+- call:spring           
+
+  - https://github.com/spring-cloud-samples
+  - https://github.com/ityouknow/spring-cloud-examples
+  Spring Cloud 学习案例，服务发现、服务治理、链路追踪、服务监控等
+  - http://www.ityouknow.com/springboot/2015/12/30/springboot-collect.html
+  spring开源项目
