@@ -594,6 +594,8 @@ Angular-1群 238251402
    面试官到底想看什么样的简历？
   - https://juejin.im/post/5d23e750f265da1b855c7bbe
    前端 100 问
+  - https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md
+   前端面试题及答案汇总
     
 ----------
         
