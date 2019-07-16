@@ -595,7 +595,9 @@ Angular-1群 238251402
   - https://juejin.im/post/5d23e750f265da1b855c7bbe
    前端 100 问
   - https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md
-   前端面试题及答案汇总
+  前端面试题及答案汇总
+  - https://github.com/pwstrick/daily
+  一份搜集的前端面试题目清单+面试相关的文章
     
 ----------
         
@@ -633,6 +635,31 @@ Angular-1群 238251402
   Spring Boot后端 + Vue + 微信小程序小商城
       
 ----------
+
+        
+- call:vue-shop           
+
+  - https://vuejsexamples.com/tag/shopping/
+  shopping集合
+  - https://github.com/nemo-tree/vue2-shop
+  基于vue全家桶的移动端 电商商城
+  - https://github.com/andylei18/vue-shopping
+  基于Vue模仿蘑菇街的单页应用
+  - https://github.com/sdras/sample-vue-shop
+  Vue Sample Shop
+  - https://github.com/Mynameisfwk/vivo-shop
+  基于vue2.0实现的vivo移动端商城
+  - https://github.com/beautifulBoys/vue-XiaoMi-Shop
+  这是一个高仿小米商城（手机版）的Vue项目
+  - https://github.com/JsAaron/vue2-legao-shops
+  vue2 商铺单+手机端
+  - https://github.com/chengzhx76/weixin-shop-spring-cloud
+  微信商城SpringCloud版本 - 前端vue-shop
+  - https://github.com/BosNaufal/vue-mini-shop
+  vue-mini-shop
+      
+----------
+
         
 - call:spring           
 
