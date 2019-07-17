@@ -500,7 +500,32 @@ vue-1群：364912432
     vue权限路由实现方式总结
     - https://www.zhihu.com/question/58991978
     Vue 后台管理控制用户权限的解决方案
-     
+    
+      
+----------
+
+        
+- call:vue-shop           
+
+  - https://vuejsexamples.com/tag/shopping/
+  shopping集合
+  - https://github.com/nemo-tree/vue2-shop
+  基于vue全家桶的移动端 电商商城
+  - https://github.com/andylei18/vue-shopping
+  基于Vue模仿蘑菇街的单页应用
+  - https://github.com/sdras/sample-vue-shop
+  Vue Sample Shop
+  - https://github.com/Mynameisfwk/vivo-shop
+  基于vue2.0实现的vivo移动端商城
+  - https://github.com/beautifulBoys/vue-XiaoMi-Shop
+  这是一个高仿小米商城（手机版）的Vue项目
+  - https://github.com/JsAaron/vue2-legao-shops
+  vue2 商铺单+手机端
+  - https://github.com/chengzhx76/weixin-shop-spring-cloud
+  微信商城SpringCloud版本 - 前端vue-shop
+  - https://github.com/BosNaufal/vue-mini-shop
+  vue-mini-shop
+        
         
 ----------
 
@@ -661,31 +686,7 @@ Angular-1群 238251402
 
   - https://github.com/linlinjava/litemall
   Spring Boot后端 + Vue + 微信小程序小商城
-      
-----------
-
-        
-- call:vue-shop           
-
-  - https://vuejsexamples.com/tag/shopping/
-  shopping集合
-  - https://github.com/nemo-tree/vue2-shop
-  基于vue全家桶的移动端 电商商城
-  - https://github.com/andylei18/vue-shopping
-  基于Vue模仿蘑菇街的单页应用
-  - https://github.com/sdras/sample-vue-shop
-  Vue Sample Shop
-  - https://github.com/Mynameisfwk/vivo-shop
-  基于vue2.0实现的vivo移动端商城
-  - https://github.com/beautifulBoys/vue-XiaoMi-Shop
-  这是一个高仿小米商城（手机版）的Vue项目
-  - https://github.com/JsAaron/vue2-legao-shops
-  vue2 商铺单+手机端
-  - https://github.com/chengzhx76/weixin-shop-spring-cloud
-  微信商城SpringCloud版本 - 前端vue-shop
-  - https://github.com/BosNaufal/vue-mini-shop
-  vue-mini-shop
-      
+   
 ----------
 
         
