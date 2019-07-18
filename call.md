@@ -697,3 +697,25 @@ Angular-1群 238251402
   Spring Cloud 学习案例，服务发现、服务治理、链路追踪、服务监控等
   - http://www.ityouknow.com/springboot/2015/12/30/springboot-collect.html
   spring开源项目
+   
+----------
+
+        
+- call:weekly           
+
+  - https://www.kancloud.cn/jsfront/month/82796
+  前端联盟群月报
+  - https://github.com/aliyunfe/weekly
+  阿里云前端技术周刊
+  - https://juejin.im/user/57a48b632e958a006691b946
+  D2开源组
+  - https://weekly.75team.com/
+  奇舞周刊
+  其它
+  - https://dev.to
+  - https://javascriptweekly.com
+  - https://frontendfoc.us
+  - https://webtoolsweekly.com
+  - https://react.statuscode.com
+  - http://www.angular-weekly.com
+  - https://nodeweekly.com
