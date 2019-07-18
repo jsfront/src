@@ -711,6 +711,10 @@ Angular-1群 238251402
   D2开源组
   - https://weekly.75team.com/
   奇舞周刊
+  - https://github.com/ruanyf/weekly
+  阮一峰的科技爱好者周刊
+  - https://frontend-weekly.com/
+  tower1229 的前端周刊
   其它
   - https://dev.to
   - https://javascriptweekly.com
