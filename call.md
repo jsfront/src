@@ -489,6 +489,8 @@ vue-1群：364912432
     A draggable and resizable grid layout, for Vue.js. 
     - https://github.com/xiongcaihu/vue-power-drag
     基于vue2.x的拖动缩放组件，可嵌套子组件  
+    - https://mauricius.github.io/vue-draggable-resizable/
+    vue-draggable-resizable
         
 ----------
 
