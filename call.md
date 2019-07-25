@@ -688,9 +688,45 @@ Angular-1群 238251402
 
   - https://github.com/linlinjava/litemall
   Spring Boot后端 + Vue + 微信小程序小商城
+----------
+
+        
+- call:java           
+
+  JAVA群：145381037
+  - http://www.oracle.com/technetwork/cn/java/javase/documentation/api-jsp-136079-zhs.html
+  官网手册
+  - https://github.com/akullpp/awesome-java
+  - https://github.com/jobbole/awesome-java-cn
+  - http://www.cnblogs.com/best/p/5876559.html
+  Java资源大全
+
    
 ----------
 
+        
+- call:php           
+
+  PHP群：82254462
+  - http://php.net/manual/zh/index.php
+  官网手册
+  - https://github.com/jobbole/awesome-php-cn
+  - https://github.com/ziadoz/awesome-php
+  - http://www.cnblogs.com/taletao/p/4212916.html
+  PHP资源大全
+   
+----------
+
+        
+- call:python           
+
+  python交流群 130705066
+  - https://github.com/jobbole/awesome-python-cn
+  Python 资源大全中文版
+  - https://github.com/vinta/awesome-python
+  Awesome Python
+   
+----------
         
 - call:spring           
 
