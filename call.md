@@ -128,6 +128,14 @@
     
 ----------
 
+
+- call:book    
+
+  - https://github.com/jsfront/src/blob/master/book.md
+  群福利书单参考大全
+    
+----------
+
 - call:editor    
     
     - http://www.bootcss.com/p/bootstrap-wysiwyg/
