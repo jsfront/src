@@ -478,6 +478,8 @@ vue-1群：364912432
     Vue-Layout - 可视化布局
     - https://vuejsexamples.com/tag/layout/
     layout合集
+    - https://github.com/ly525/luban-h5
+    鲁班H5- 类似易企秀的H5制作、建站工具
     
 ----------
 
