@@ -472,7 +472,7 @@ vue-1群：364912432
         
 ----------
 
-- call:vue-layout  
+- call:vue-h5  
 
     - https://jaweii.github.io/Vue-Layout/dist/#/
     Vue-Layout - 可视化布局
@@ -480,6 +480,14 @@ vue-1群：364912432
     layout合集
     - https://github.com/ly525/luban-h5
     鲁班H5- 类似易企秀的H5制作、建站工具
+    - https://github.com/ymm-tech/gods-pen
+    码良快速制作H5页面
+    - https://github.com/Ricbet/panel-magic
+    Panel-Magic 是基于 Angular8 实现的在线可视化编辑应用
+    - https://github.com/fireyy/vue-page-designer
+    Vue component for drag-and-drop to design and build mobile website
+    - https://github.com/page-pipepline/pipeline-editor
+    页面可视化搭建框架的web编辑器
     
 ----------
 
