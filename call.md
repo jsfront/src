@@ -558,6 +558,8 @@ vue-1群：364912432
   vue table 组件，支持 单元格合并、单元格编辑、多表头固定、多列固定、列拖动    
   - https://github.com/xaksis/vue-good-table
   一款功能强大易用的表格
+  - https://www.vuetable.com
+  数据表格
       
         
 ----------
