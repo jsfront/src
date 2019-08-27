@@ -686,6 +686,8 @@ Angular-1群 238251402
   前端面试题及答案汇总
   - https://github.com/pwstrick/daily
   一份搜集的前端面试题目清单+面试相关的文章
+  - https://segmentfault.com/a/1190000020181662
+  Vue面试中，经常会被问到的面试题/知识点(2019改进版)
     
 ----------
         
