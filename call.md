@@ -843,3 +843,20 @@ Angular-1群 238251402
   解密健身器械
   - https://www.zhihu.com/question/20425675
   健身房中各种器械的正确使用方法是怎样的？
+    
+----------
+
+        
+- call:ts           
+
+  - https://www.typescriptlang.org
+  TypeScript
+  - https://www.tslang.cn
+  中文网
+  - https://github.com/xcatliu/typescript-tutorial
+  TypeScript 入门教程
+  - https://github.com/semlinker/awesome-typescript
+  - https://github.com/dzharii/awesome-typescript
+  - https://github.com/brookshi/awesome-typescript-projects
+  - https://jkchao.github.io/typescript-book-chinese/
+  深入理解 TypeScript
