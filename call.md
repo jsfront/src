@@ -719,6 +719,8 @@ Angular-1群 238251402
   Vue面试中，经常会被问到的面试题/知识点(2019改进版)
   - https://juejin.im/post/5d7596055188253e4b2f0c29
   36 个JS 面试题为你助力金九银十(面试必读)
+  - https://github.com/0voice/interview_internal_reference  
+  2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总
     
 ----------
         
