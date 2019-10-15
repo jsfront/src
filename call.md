@@ -862,3 +862,18 @@ Angular-1群 238251402
   - https://github.com/brookshi/awesome-typescript-projects
   - https://jkchao.github.io/typescript-book-chinese/
   深入理解 TypeScript
+  
+    
+----------
+
+        
+- call:api           
+
+  - https://github.com/marktony/Awesome_API
+  api集合网站
+  - https://github.com/rccoder/blog/issues/22
+  前端打造的mac os
+  - https://sebastianblade.com/browser-side-image-compress-and-upload/
+  在浏览器上打造的上传图片 
+  - https://github.com/fangzesheng/free-api
+  收集免费的接口服务,做一个api的搬运工
