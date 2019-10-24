@@ -517,6 +517,8 @@ vue-1群：364912432
     Vue component for drag-and-drop to design and build mobile website
     - https://github.com/page-pipepline/pipeline-editor
     页面可视化搭建框架的web编辑器
+    - https://github.com/fodelf/esaymarket
+    拖拽生成落地页，app，小程序实现测试开发运维部署客服一体化
     
 ----------
 
