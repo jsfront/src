@@ -723,6 +723,8 @@ Angular-1群 238251402
   36 个JS 面试题为你助力金九银十(面试必读)
   - https://github.com/0voice/interview_internal_reference  
   2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总
+  - https://juejin.im/entry/5db1c186518825646b111a4d
+  2019年最新经典web前端面试题超全面细节
     
 ----------
         
