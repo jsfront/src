@@ -886,3 +886,17 @@ Angular-1群 238251402
   在浏览器上打造的上传图片 
   - https://github.com/fangzesheng/free-api
   收集免费的接口服务,做一个api的搬运工
+  
+  
+    
+----------
+
+        
+- call:composer           
+
+  - https://getcomposer.org/
+  官网
+  - https://www.kancloud.cn/thinkphp/composer/35668
+  composer中文文档
+  - composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/  
+  更改镜像
