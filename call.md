@@ -900,3 +900,21 @@ Angular-1群 238251402
   composer中文文档
   - composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/  
   更改镜像
+  
+      
+----------
+        
+- call:mock  
+  
+  - http://mockjs.com/
+  生成随机数据，拦截 Ajax 请求
+  - https://www.easy-mock.com
+  伪造数据，我们更高效
+  - http://myjson.com/
+  A simple JSON store
+  - http://apizza.cc
+  极客专属的接口协作管理工具
+  - https://swagger.io
+  一款让你更好的书写API文档的框架
+  - https://www.eolinker.com/
+  新一代API管理 & 自动化测试平台
