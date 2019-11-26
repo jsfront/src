@@ -71,7 +71,6 @@
 - [重构：改善既有代码的设计(第2版)](http://product.china-pub.com/4720077)
 
 # 8. Vue
-- [正版包邮 Vue2实践揭秘 Vue js 2.0入门教程书籍 Vue2基础理论应用](https://item.jd.com/12031579940.html)
 
 # 9. http 协议
 - [httpS权威指南 在服务器和Web应用上部署SSL TLS和PKI](http://product.china-pub.com/4976155)
