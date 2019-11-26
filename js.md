@@ -741,7 +741,7 @@ function setCookie(name, value, Hours) {
     var nd = utc + (3600000 * offset);
     var exp = new Date(nd);
     exp.setTime(exp.getTime() + Hours * 60 * 60 * 1000);
-    document.cookie = name + "=" + escape(value) + ";path=/;expires=" + exp.toGMTString() + ";domain=360doc.com;"
+    document.cookie = name + "=" + escape(value) + ";path=/;expires=" + exp.toGMTString()
 }
 ```
 - 获取cookie值
