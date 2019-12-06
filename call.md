@@ -918,3 +918,13 @@ Angular-1群 238251402
   一款让你更好的书写API文档的框架
   - https://www.eolinker.com/
   新一代API管理 & 自动化测试平台
+      
+----------
+        
+- call:js-effect    
+
+  - https://www.awesomes.cn/
+  - http://www.lanrenzhijia.com/
+  - http://www.jq22.com/
+  - http://www.htmleaf.com/
+  - https://www.oschina.net/project/tag/273/jquery
