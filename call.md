@@ -928,3 +928,31 @@ Angular-1群 238251402
   - http://www.jq22.com/
   - http://www.htmleaf.com/
   - https://www.oschina.net/project/tag/273/jquery
+  
+----------
+        
+- call:bootstrap-admin    
+
+  - https://adminlte.io/themes/AdminLTE/index2.html
+  AdminLTE
+  - https://colorlib.com/wp/free-bootstrap-admin-dashboard-templates/
+  - https://athemes.com/collections/free-bootstrap-admin-templates/
+  - https://www.creative-tim.com/bootstrap-themes/admin-dashboard
+  - http://bootstrapzero.com
+  - https://wrapbootstrap.com/
+  bootstrap主题集合网站
+  
+----------
+        
+- call:layui-admin    
+
+  - https://www.layui.com/admin/
+  layuiAdmin 后台管理模板
+  - https://github.com/weberandphper/Layui-admin
+  一个现成的 Layui+Vue的后台系统模板，开箱即用 
+  - https://learnku.com/articles/32082
+  layuimini，一款基于 layui 华丽免费的 admin 管理后台模板
+  - http://x.xuebingsi.com/
+  X-admin基于layui的轻量级前端后台管理框架
+  - https://segmentfault.com/a/1190000020306998
+  laravel-layui-admin : 支持 Laravel6.0 的 RBAC 后台系统  
