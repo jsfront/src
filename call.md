@@ -524,6 +524,8 @@ vue-1群：364912432
     页面可视化搭建框架的web编辑器
     - https://github.com/fodelf/esaymarket
     拖拽生成落地页，app，小程序实现测试开发运维部署客服一体化
+    - https://github.com/JakHuang/form-generator
+    Element UI表单设计及代码生成器
     
 ----------
 
