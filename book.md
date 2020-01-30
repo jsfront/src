@@ -85,6 +85,7 @@
 - [数据结构与算法JavaScript描述](http://product.china-pub.com/3804002)
 - [啊哈 算法](http://product.china-pub.com/3770208)
 - [学习JavaScript数据结构与算法](http://product.china-pub.com/3804284)
+- [漫画算法：小灰的算法之旅（全彩）](https://item.jd.com/12513751.html)
 
 # 11. 高性能
 - [高性能JavaScript](http://product.china-pub.com/4778083)
