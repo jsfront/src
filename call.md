@@ -958,3 +958,38 @@ Angular-1群 238251402
   X-admin基于layui的轻量级前端后台管理框架
   - https://segmentfault.com/a/1190000020306998
   laravel-layui-admin : 支持 Laravel6.0 的 RBAC 后台系统  
+    
+----------
+        
+- call:vant-demo    
+
+  - https://github.com/qiuChengleiy/shop-vue
+  vant( UI ) 移动端商城 APP项目
+  - https://github.com/noobzzzz/vantmbshop
+  基于vant的手机端商城
+  - https://github.com/sunnie1992/vant-shop-demo
+  商城常用的组件开发
+  - https://github.com/qianzhaoy/vant--mobile-mall
+  基于有赞 vant 组件库的移动商城
+  - https://github.com/pwx123/vue-vant-store
+  基于vue，vantUI的商城demo
+  - https://github.com/Geek-James/ddBuy
+  Vue2.x 全家桶+Vant 搭建大型单页面电商项目
+    
+----------
+        
+- call:wuhan    
+
+  武汉前端交流群 210232515
+  - https://wh.uranplus.com/
+  加油湖北--疫区医院捐赠平台
+  - https://wuhan2020.github.io/
+  Wuhan2020 社区
+  - https://onwh.51rry.com/
+  E起支援疫情物资供需平台
+  - https://cfh.firesbox.com/
+  新冠疫情物资互助
+  - http://rescue.sitiits.com:9966/visur/#/
+  新冠肺炎物资公益平台
+  - https://gitee.com/dcloud/xinguan2020
+  抗疫相关系统  
