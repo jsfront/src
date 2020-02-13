@@ -993,3 +993,21 @@ Angular-1群 238251402
   新冠肺炎物资公益平台
   - https://gitee.com/dcloud/xinguan2020
   抗疫相关系统  
+      
+----------
+        
+- call:ebook    
+  
+  https://www.jiumodiary.com/
+  https://sobooks.cc/
+  https://www.owllook.net/
+  https://www.bandubook.com/
+  http://dianzishu.renrensousuo.com/
+  http://www.zoudupai.com/
+  https://sou-yun.cn/eBookIndex.aspx
+  https://b-ok.org/
+  http://gen.lib.rus.ec/
+  https://epubw.com/
+  https://www.enjing.com/
+  https://5kindle.com/
+  https://www.d4j.cn/  
