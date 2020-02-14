@@ -998,16 +998,33 @@ Angular-1群 238251402
         
 - call:ebook    
   
-  https://www.jiumodiary.com/
-  https://sobooks.cc/
-  https://www.owllook.net/
-  https://www.bandubook.com/
-  http://dianzishu.renrensousuo.com/
-  http://www.zoudupai.com/
-  https://sou-yun.cn/eBookIndex.aspx
-  https://b-ok.org/
-  http://gen.lib.rus.ec/
-  https://epubw.com/
-  https://www.enjing.com/
-  https://5kindle.com/
-  https://www.d4j.cn/  
+  - https://www.jiumodiary.com/
+  - https://sobooks.cc/
+  - https://www.owllook.net/
+  - https://www.bandubook.com/
+  - http://dianzishu.renrensousuo.com/
+  - http://www.zoudupai.com/
+  - https://sou-yun.cn/eBookIndex.aspx
+  - https://b-ok.org/
+  - http://gen.lib.rus.ec/
+  - https://epubw.com/
+  - https://www.enjing.com/
+  - https://5kindle.com/
+  - https://www.d4j.cn/  
+       
+----------
+        
+- call:to-m    
+  
+  - https://nervjs.github.io/taro/docs/README.html
+  Taro 遵循 React 语法规范的 多端开发 解决方案
+  - https://github.com/NervJS/awesome-taro
+  - https://uniapp.dcloud.io
+  Vue.js 开发跨平台应用的前端框架
+  - https://github.com/aben1188/awesome-uni-app
+  - https://tencent.github.io/wepy/
+  让小程序支持组件化开发的框架
+  - https://max-team.github.io/Mars/
+  Vue 驱动的多端开发框架
+  - https://github.com/kaola-fed/megalo
+  基于 Vue 的小程序开发框架
