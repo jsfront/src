@@ -732,6 +732,12 @@ Angular-1群 238251402
   2019年最新总结，阿里，腾讯，百度，美团，头条等技术面试题目，以及答案，专家出题人分析汇总
   - https://juejin.im/entry/5db1c186518825646b111a4d
   2019年最新经典web前端面试题超全面细节
+  - https://q.shanyue.tech/fe/
+  前端面试题小记
+  - https://q.shanyue.tech/interview.html
+  前端大厂面经大全集
+  - https://q.shanyue.tech/base/
+  计算机基础面试题小计
     
 ----------
         
