@@ -583,7 +583,38 @@ vue-1群：364912432
   微信商城SpringCloud版本 - 前端vue-shop
   - https://github.com/BosNaufal/vue-mini-shop
   vue-mini-shop
-    
+
+      
+----------
+- call:vue-doc
+
+  - https://cn.vuejs.org/v2/guide/installation.html
+  - https://vuex.vuejs.org/zh/
+  - https://router.vuejs.org/zh/guide/
+  - http://es6.ruanyifeng.com/
+  - https://github.com/axios/axios
+  - https://www.kancloud.cn/yunye/axios/234845
+  axios中文说明
+  - https://ssr.vuejs.org/zh/
+  Vue.js 服务器端渲染指南
+  - https://docschina.org/
+  印记中文
+  - https://zh.nuxtjs.org/guide/installation
+      
+----------
+
+        
+- call:vue-music
+
+  - https://github.com/IFmiss/vue-music
+  - https://github.com/lxyisme/vue-musicApp
+  - https://github.com/bxm0927/vue-music-webapp
+  - https://github.com/k-water/vue-music
+  - https://zq99299.gitbooks.io/vue-note/content/chapter/m/play.html
+  - https://github.com/SimonZhangITer/VueDemo_Sell_Eleme
+  - https://github.com/bailicangdu/vue2-elm
+  - https://github.com/maomao1996/Vue-mmPlayer
+  - https://github.com/javaSwing/NeteaseCloudWebApp       
       
 ----------
 
