@@ -1067,3 +1067,22 @@ Angular-1群 238251402
   Vue 驱动的多端开发框架
   - https://github.com/kaola-fed/megalo
   基于 Vue 的小程序开发框架
+       
+----------
+        
+- call:cut    
+  
+  - https://github.com/xiangpaopao/blog/issues/2
+  前端技能之切图
+  - http://www.imooc.com/learn/506
+  前端工程师必备的PS技能——切图篇
+  - http://zh.snipaste.com/
+  截图 + 贴图
+  - http://note.youdao.com/share/?id=4c4ac226e98a7343c188b608122fc98f&type=note
+  - http://www.cutterman.cn/
+  切图神器
+  - https://blog.jimdono.com/qian-duan-qie-tu-shen-qi-avocode/
+  前端切图神器avocode
+  - http://lanhuapp.com
+  蓝湖一款产品文档和设计图的共享平台
+  
