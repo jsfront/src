@@ -528,6 +528,8 @@ vue-1群：364912432
     Element UI表单设计及代码生成器
     - https://github.com/Kchengz/k-form-design
     基于vue Ant-Design 的表单设计器，快速开发
+    - http://www.form-create.com/
+    轻松搞定 form 表单，让你不再为表单而烦恼
     
 ----------
 
