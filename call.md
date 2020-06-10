@@ -1087,4 +1087,27 @@ Angular-1群 238251402
   前端切图神器avocode
   - http://lanhuapp.com
   蓝湖一款产品文档和设计图的共享平台
+       
+----------
+        
+- call:go    
   
+  GO技术交流群 105545914
+  - https://github.com/yinggaozhen/awesome-go-cn/blob/master/README.md
+  Awesome Go
+  - https://github.com/jobbole/awesome-go-cn
+  Go 资源大全中文版
+  - https://studygolang.com/
+  go语言中文网
+  - https://www.runoob.com/go/go-environment.html
+  go 菜鸟教程
+  - https://xueyuanjun.com/post/19709
+  go入门教程
+  - https://github.com/qyuhen/book
+  学习笔记
+  - https://github.com/zxysilent/books
+  pdf分享
+  - https://github.com/Kensuke-Hinata/statistic
+  电子书 
+  - https://learnku.com/go/docs
+  Go社区文档
