@@ -1013,8 +1013,18 @@ Angular-1群 238251402
   layuimini，一款基于 layui 华丽免费的 admin 管理后台模板
   - http://x.xuebingsi.com/
   X-admin基于layui的轻量级前端后台管理框架
+    
+  
+----------
+        
+- call:laravel-admin    
+
   - https://segmentfault.com/a/1190000020306998
   laravel-layui-admin : 支持 Laravel6.0 的 RBAC 后台系统  
+  - https://gitee.com/jqhph/dcat-admin
+  Dcat Admin是一个基于laravel-admin二次开发而成的后台系统构建工具
+  - https://laravel-admin.org/
+  在十分钟内构建一个功能齐全的管理后台
     
 ----------
         
