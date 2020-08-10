@@ -388,7 +388,6 @@ react-1群：530415177
   - https://github.com/Pines-Cheng/awesome-react-cn
   - https://github.com/brillout/awesome-react-components
   - https://github.com/rehooks/awesome-react-hooks
-  
          
 ----------
 
@@ -502,7 +501,6 @@ vue-1群：364912432
       面向金融场景的Vue移动端UI组件库
       - https://nutui.jd.com/#/intro
       京东风格的轻量级移动端Vue组件库
-     
         
 ----------
 
@@ -562,10 +560,8 @@ vue-1群：364912432
     vue权限路由实现方式总结
     - https://www.zhihu.com/question/58991978
     Vue 后台管理控制用户权限的解决方案
-    
       
 ----------
-
         
 - call:vue-shop           
 
@@ -587,9 +583,9 @@ vue-1群：364912432
   微信商城SpringCloud版本 - 前端vue-shop
   - https://github.com/BosNaufal/vue-mini-shop
   vue-mini-shop
-
       
 ----------
+
 - call:vue-doc
 
   - https://cn.vuejs.org/v2/guide/installation.html
@@ -621,7 +617,6 @@ vue-1群：364912432
   - https://github.com/javaSwing/NeteaseCloudWebApp       
       
 ----------
-
         
 - call:vue-table           
 
@@ -634,9 +629,7 @@ vue-1群：364912432
   - https://www.vuetable.com
   数据表格
       
-      
 ----------
-
         
 - call:vue-date           
 
@@ -649,8 +642,7 @@ vue-1群：364912432
   - https://github.com/zwhGithub/vue-calendar
   - https://github.com/richardtallent/vue-simple-calendar
   - https://github.com/IBM/vue-a11y-calendar
-      
-                
+             
 ----------
 
 - call:flutter  
@@ -687,7 +679,6 @@ Angular-1群 238251402
         
 - call:mac        
 
-
   - https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md
     Awesome Mac
   - https://github.com/iCHAIT/awesome-macOS
@@ -700,6 +691,32 @@ Angular-1群 238251402
 - call:windows        
 
   - https://github.com/Awesome-Windows/Awesome
+    
+----------
+        
+- call:react        
+
+  react-1群：530415177
+  - https://github.com/enaqx/awesome-react
+  react海量资源
+  - http://www.react-china.org/
+  react.js 中文论坛
+  - https://facebook.github.io/react/index.html
+  react.js 官方网址
+  - https://facebook.github.io/react/docs/getting-started.html
+  react.js 官方文档
+  - https://zh-hans.reactjs.org/
+  React 中文文档
+  - http://material-ui.com/#/
+  react.js material UI
+  - http://touchstonejs.io/
+  react.js TouchstoneJS UI
+  - http://amazeui.org/react/
+  react.js amazeui UI
+  - http://ant.design/
+  ant.design
+  - http://huziketang.mangojuice.top/books/react/
+  React.js 小书
   
 ----------
         
@@ -708,7 +725,22 @@ Angular-1群 238251402
   - https://github.com/enaqx/awesome-react
   - https://github.com/Pines-Cheng/awesome-react-cn
   - https://github.com/brillout/awesome-react-components
-  - https://github.com/rehooks/awesome-react-hooks
+  - https://github.com/rehooks/awesome-react-hooks  
+  
+----------
+        
+- call:webpack        
+
+  - https://webpack.js.org
+  webpack官网
+  - https://doc.webpack-china.org/concepts/
+  webpack中文文档
+  - https://llp0574.github.io/2016/11/29/getting-started-with-webpack2/
+  Webpack 2 入门教程
+  - https://github.com/kraaas/webpack-tutorial-collection
+  webpack 教程资源收集
+  - https://segmentfault.com/a/1190000005022872
+  webpack 教科书式入门教程
     
 ----------
         
