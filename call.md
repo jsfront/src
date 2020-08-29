@@ -821,6 +821,8 @@ Angular-1群 238251402
   前端大厂面经大全集
   - https://q.shanyue.tech/base/
   计算机基础面试题小计
+  - https://fecommunity.github.io/front-end-interview/
+  前端工程师面试宝典
     
 ----------
         
