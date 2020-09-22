@@ -25,6 +25,7 @@
 - [深入理解ES6](http://product.china-pub.com/6011498)
 - [你不知道的JavaScript(下卷)](http://product.china-pub.com/7159257)
 - [深入理解JavaScript特性](http://product.china-pub.com/8059620)
+- [JavaScript高级程序设计（第4版） [预售]](https://www.ituring.com.cn/book/2472)
 
 # 2. Nodejs
 - [Node.js项目实践：构建可扩展的Web应用](http://item.jd.com/11688177.html)

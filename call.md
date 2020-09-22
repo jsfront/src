@@ -15,8 +15,6 @@
   - 成都前端交流群 206731784
   - 杭州前端交流群 199595055
   - 西安前端交流群 369727205
-  - 南京前端交流群 475057024
-  - 广州前端交流群 175869166
   - 武汉前端交流群 210232515
   - 福建前端交流群 164254764
   - 重庆前端交流群 581612664
@@ -54,6 +52,8 @@
    - 成都前端求职内推群：258468409
    - 西安前端求职内推群：37948639
    - 杭州前端求职内推群：222458130
+   - 南京前端求职内推群：475057024
+   - 广州前端求职内推群：175869166
    
    位置有限，不要串群，只允许加一个群。
    为了保证质量，本人精力有限，暂无其它城市内推群，为了让Hr能够参与，求职内推群禁止讨论交流技术。
@@ -388,7 +388,6 @@ react-1群：530415177
   - https://github.com/Pines-Cheng/awesome-react-cn
   - https://github.com/brillout/awesome-react-components
   - https://github.com/rehooks/awesome-react-hooks
-  
          
 ----------
 
@@ -502,7 +501,6 @@ vue-1群：364912432
       面向金融场景的Vue移动端UI组件库
       - https://nutui.jd.com/#/intro
       京东风格的轻量级移动端Vue组件库
-     
         
 ----------
 
@@ -526,6 +524,13 @@ vue-1群：364912432
     拖拽生成落地页，app，小程序实现测试开发运维部署客服一体化
     - https://github.com/JakHuang/form-generator
     Element UI表单设计及代码生成器
+    - https://github.com/Kchengz/k-form-design
+    基于vue Ant-Design 的表单设计器，快速开发
+    - http://www.form-create.com/
+    轻松搞定 form 表单，让你不再为表单而烦恼
+    - https://zhuanlan.zhihu.com/p/256976325
+    开源H5可视化编辑器Dooring之 动态表单设计器实现
+
     
 ----------
 
@@ -558,10 +563,8 @@ vue-1群：364912432
     vue权限路由实现方式总结
     - https://www.zhihu.com/question/58991978
     Vue 后台管理控制用户权限的解决方案
-    
       
 ----------
-
         
 - call:vue-shop           
 
@@ -583,10 +586,40 @@ vue-1群：364912432
   微信商城SpringCloud版本 - 前端vue-shop
   - https://github.com/BosNaufal/vue-mini-shop
   vue-mini-shop
-    
       
 ----------
 
+- call:vue-doc
+
+  - https://cn.vuejs.org/v2/guide/installation.html
+  - https://vuex.vuejs.org/zh/
+  - https://router.vuejs.org/zh/guide/
+  - http://es6.ruanyifeng.com/
+  - https://github.com/axios/axios
+  - https://www.kancloud.cn/yunye/axios/234845
+  axios中文说明
+  - https://ssr.vuejs.org/zh/
+  Vue.js 服务器端渲染指南
+  - https://docschina.org/
+  印记中文
+  - https://zh.nuxtjs.org/guide/installation
+      
+----------
+
+        
+- call:vue-music
+
+  - https://github.com/IFmiss/vue-music
+  - https://github.com/lxyisme/vue-musicApp
+  - https://github.com/bxm0927/vue-music-webapp
+  - https://github.com/k-water/vue-music
+  - https://zq99299.gitbooks.io/vue-note/content/chapter/m/play.html
+  - https://github.com/SimonZhangITer/VueDemo_Sell_Eleme
+  - https://github.com/bailicangdu/vue2-elm
+  - https://github.com/maomao1996/Vue-mmPlayer
+  - https://github.com/javaSwing/NeteaseCloudWebApp       
+      
+----------
         
 - call:vue-table           
 
@@ -599,7 +632,20 @@ vue-1群：364912432
   - https://www.vuetable.com
   数据表格
       
+----------
         
+- call:vue-date           
+
+  - https://github.com/hilongjw/vue-datepicker
+  - https://github.com/jinzhe/vue-calendar
+  - https://github.com/GeoffZhu/vue-event-calendar
+  - https://github.com/vuejsdevelopers/vuejs-calendar
+  - https://github.com/Wanderxx/vue-fullcalendar
+  - https://github.com/icai/vue2-calendar
+  - https://github.com/zwhGithub/vue-calendar
+  - https://github.com/richardtallent/vue-simple-calendar
+  - https://github.com/IBM/vue-a11y-calendar
+             
 ----------
 
 - call:flutter  
@@ -636,7 +682,6 @@ Angular-1群 238251402
         
 - call:mac        
 
-
   - https://github.com/jaywcjlove/awesome-mac/blob/master/README-zh.md
     Awesome Mac
   - https://github.com/iCHAIT/awesome-macOS
@@ -649,6 +694,32 @@ Angular-1群 238251402
 - call:windows        
 
   - https://github.com/Awesome-Windows/Awesome
+    
+----------
+        
+- call:react        
+
+  react-1群：530415177
+  - https://github.com/enaqx/awesome-react
+  react海量资源
+  - http://www.react-china.org/
+  react.js 中文论坛
+  - https://facebook.github.io/react/index.html
+  react.js 官方网址
+  - https://facebook.github.io/react/docs/getting-started.html
+  react.js 官方文档
+  - https://zh-hans.reactjs.org/
+  React 中文文档
+  - http://material-ui.com/#/
+  react.js material UI
+  - http://touchstonejs.io/
+  react.js TouchstoneJS UI
+  - http://amazeui.org/react/
+  react.js amazeui UI
+  - http://ant.design/
+  ant.design
+  - http://huziketang.mangojuice.top/books/react/
+  React.js 小书
   
 ----------
         
@@ -657,7 +728,22 @@ Angular-1群 238251402
   - https://github.com/enaqx/awesome-react
   - https://github.com/Pines-Cheng/awesome-react-cn
   - https://github.com/brillout/awesome-react-components
-  - https://github.com/rehooks/awesome-react-hooks
+  - https://github.com/rehooks/awesome-react-hooks  
+  
+----------
+        
+- call:webpack        
+
+  - https://webpack.js.org
+  webpack官网
+  - https://doc.webpack-china.org/concepts/
+  webpack中文文档
+  - https://llp0574.github.io/2016/11/29/getting-started-with-webpack2/
+  Webpack 2 入门教程
+  - https://github.com/kraaas/webpack-tutorial-collection
+  webpack 教程资源收集
+  - https://segmentfault.com/a/1190000005022872
+  webpack 教科书式入门教程
     
 ----------
         
@@ -704,8 +790,6 @@ Angular-1群 238251402
    代码面试题集
   - https://zhuanlan.zhihu.com/p/57302141
    大厂前端高频面试问题与答案精选
-  - https://zhuanlan.zhihu.com/p/58586191
-   【面经】寒冬中的一年半前端跳槽
   - https://juejin.im/post/5c8f30606fb9a070ef60996d
    寒冬中的前端社招面试
   - https://zhuanlan.zhihu.com/p/53703176
@@ -714,12 +798,10 @@ Angular-1群 238251402
    你要的Vue面试题都在这里
   - https://juejin.im/post/5d153267e51d4510624f9809
    vue 220+个知识点（面试题）为你保驾护航
-  - https://juejin.im/entry/5d06ce32e51d4510a50335bd)
+  - https://juejin.im/entry/5d06ce32e51d4510a50335bd
    [译] 送你 43 道 JavaScript 面试题
   - https://juejin.im/post/5d1d52aff265da1bb2774de0
    面试官到底想看什么样的简历？
-  - https://juejin.im/post/5d23e750f265da1b855c7bbe
-   前端 100 问
   - https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md
   前端面试题及答案汇总
   - https://github.com/pwstrick/daily
@@ -738,6 +820,8 @@ Angular-1群 238251402
   前端大厂面经大全集
   - https://q.shanyue.tech/base/
   计算机基础面试题小计
+  - https://fecommunity.github.io/front-end-interview/
+  前端工程师面试宝典
     
 ----------
         
@@ -962,8 +1046,18 @@ Angular-1群 238251402
   layuimini，一款基于 layui 华丽免费的 admin 管理后台模板
   - http://x.xuebingsi.com/
   X-admin基于layui的轻量级前端后台管理框架
+    
+  
+----------
+        
+- call:laravel-admin    
+
   - https://segmentfault.com/a/1190000020306998
   laravel-layui-admin : 支持 Laravel6.0 的 RBAC 后台系统  
+  - https://gitee.com/jqhph/dcat-admin
+  Dcat Admin是一个基于laravel-admin二次开发而成的后台系统构建工具
+  - https://laravel-admin.org/
+  在十分钟内构建一个功能齐全的管理后台
     
 ----------
         
@@ -1034,3 +1128,56 @@ Angular-1群 238251402
   Vue 驱动的多端开发框架
   - https://github.com/kaola-fed/megalo
   基于 Vue 的小程序开发框架
+       
+----------
+        
+- call:cut    
+  
+  - https://github.com/xiangpaopao/blog/issues/2
+  前端技能之切图
+  - http://www.imooc.com/learn/506
+  前端工程师必备的PS技能——切图篇
+  - http://zh.snipaste.com/
+  截图 + 贴图
+  - http://note.youdao.com/share/?id=4c4ac226e98a7343c188b608122fc98f&type=note
+  - http://www.cutterman.cn/
+  切图神器
+  - https://blog.jimdono.com/qian-duan-qie-tu-shen-qi-avocode/
+  前端切图神器avocode
+  - http://lanhuapp.com
+  蓝湖一款产品文档和设计图的共享平台
+       
+----------
+        
+- call:go    
+  
+  GO技术交流群 105545914
+  - https://github.com/yinggaozhen/awesome-go-cn/blob/master/README.md
+  Awesome Go
+  - https://github.com/jobbole/awesome-go-cn
+  Go 资源大全中文版
+  - https://studygolang.com/
+  go语言中文网
+  - https://www.runoob.com/go/go-environment.html
+  go 菜鸟教程
+  - https://xueyuanjun.com/post/19709
+  go入门教程
+  - https://github.com/qyuhen/book
+  学习笔记
+  - https://github.com/zxysilent/books
+  pdf分享
+  - https://github.com/Kensuke-Hinata/statistic
+  电子书 
+  - https://learnku.com/go/docs
+  Go社区文档
+       
+----------
+        
+- call:ui    
+  
+  UI设计么么哒 - 设计交流群 321173051
+  设计导航
+  - http://hao.uisdc.com/
+  - http://so.uehtml.com/
+  - http://wz.ccdol.com/
+  - https://admire.so/
