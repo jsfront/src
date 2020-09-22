@@ -528,6 +528,9 @@ vue-1群：364912432
     基于vue Ant-Design 的表单设计器，快速开发
     - http://www.form-create.com/
     轻松搞定 form 表单，让你不再为表单而烦恼
+    - https://zhuanlan.zhihu.com/p/256976325
+    开源H5可视化编辑器Dooring之 动态表单设计器实现
+
     
 ----------
 
@@ -787,8 +790,6 @@ Angular-1群 238251402
    代码面试题集
   - https://zhuanlan.zhihu.com/p/57302141
    大厂前端高频面试问题与答案精选
-  - https://zhuanlan.zhihu.com/p/58586191
-   【面经】寒冬中的一年半前端跳槽
   - https://juejin.im/post/5c8f30606fb9a070ef60996d
    寒冬中的前端社招面试
   - https://zhuanlan.zhihu.com/p/53703176
@@ -797,12 +798,10 @@ Angular-1群 238251402
    你要的Vue面试题都在这里
   - https://juejin.im/post/5d153267e51d4510624f9809
    vue 220+个知识点（面试题）为你保驾护航
-  - https://juejin.im/entry/5d06ce32e51d4510a50335bd)
+  - https://juejin.im/entry/5d06ce32e51d4510a50335bd
    [译] 送你 43 道 JavaScript 面试题
   - https://juejin.im/post/5d1d52aff265da1bb2774de0
    面试官到底想看什么样的简历？
-  - https://juejin.im/post/5d23e750f265da1b855c7bbe
-   前端 100 问
   - https://github.com/Advanced-Frontend/Daily-Interview-Question/blob/master/datum/summary.md
   前端面试题及答案汇总
   - https://github.com/pwstrick/daily
