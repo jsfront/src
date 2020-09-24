@@ -10,7 +10,7 @@ UI设计交流◑﹏◐1群 92588284
 
 ---
 
-###一. 如何提问:
+### 一. 如何提问:
 1. 请组织好相关文字，用专业的语言描述错误发生的场景。比如：在此操作中，用了选择工具不能移动图层。等等。
 2. 文字描述不清的bug，用截图示意，且要说明两种状态：现状或期望的状态。
 
@@ -22,7 +22,7 @@ UI设计交流◑﹏◐1群 92588284
 - [如何优雅地向前辈或者高手请教技术问题？](http://www.zhihu.com/question/25464141)
 - [提问的艺术-ZZ](http://www.awflasher.com/blog/archives/200)
 
-###二. 禁问:
+### 二. 禁问:
 日常生活废话禁问，主观性的问题禁问，概念性的问题禁问。
 
 - 早上问早，晚上道晚安。聊天起于问早，止于呵呵。
@@ -38,7 +38,7 @@ UI设计交流◑﹏◐1群 92588284
 - 2. 直接说场景：我在做xx端东西的时候，在window 7平台的IE7版本下遇到了左右不对齐问题，具体如图所示img，代码地址：http://www.jsbin.com/xxxx，在百度中找到的答案，试了之后还是有同样的问题。请有空的同学帮我看看是什么问题？
 如果你的问题暂时没人理，那表示有空的同学都未涉猎，赶紧找其它办法。
 
-###三. 禁发:
+### 三. 禁发:
 
 - 广告，招聘，找工作，找实习，找私活者，接私活，推广(如极客邀请加入)，明星八卦，禁群内签到，假红包，禁语音，禁打开视频，等与前端技术或职业探讨主题无关的内容或行为，禁发超过一屏的长代码，不太习惯自己退，违者踢。
 - 禁发无意义的大图片，建议发qq提供的默认的等于行距表情，约束这个目的在于：
@@ -50,14 +50,14 @@ UI设计交流◑﹏◐1群 92588284
 - 本群不欢迎纯hr的交流，公司技术人员内推招聘发群邮件，如有违反，直接踢，不另行引导或通知。
 - 禁发超过文本行距的大gif。
 
-###四. 警告:
+### 四. 警告:
 
 - 字体：微软雅黑，10，禁加粗，禁加斜，禁加下划线，字体颜色不建议特别刺眼的颜色。
 - 禁止闲聊，或无意义回复。
 - 提问之前最好百度，google过，着重培养的是一种能力或方法，不是一个结果。
 - 不建议直接索要代码，可以追问技术实现的思路或方法。
 
-###五. 资源教程:
+### 五. 资源教程:
 
 1. 综合类
 
@@ -85,9 +85,9 @@ UI设计交流◑﹏◐1群 92588284
     - [艾伦 - 慕课系列](http://www.imooc.com/space/teacher/id/290139)
     - [碧仔 - Hello，移动WEB](http://www.imooc.com/view/494)
 
-###六. 作品展示:
+### 六. 作品展示:
 
-###七. 设计门户网站
+### 七. 设计门户网站
 
 1. 集合网站
     - [设计师导航网站](http://hao.uisdc.com/)
@@ -107,9 +107,9 @@ UI设计交流◑﹏◐1群 92588284
 
     - [涂鸦网站](http://www.poocg.com/)
 
-###八. 素材网站
+### 八. 素材网站
 
-####1. ICON搜索
+#### 1. ICON搜索
 
 - [Facebook Projects](https://code.facebook.com/projects/web/)
 - [百度web前端研发部](http://fex.baidu.com/)
@@ -127,7 +127,7 @@ UI设计交流◑﹏◐1群 92588284
 - [奇舞团开源项目](http://75team.github.io/)
 - [Qunar UED](http://ued.qunar.com/)
 
-####2. PSD其它搜索
+#### 2. PSD其它搜索
 
 1. 常用    
 
@@ -156,14 +156,13 @@ UI设计交流◑﹏◐1群 92588284
     - [模拟生成JSON数据](http://beta.json-generator.com/)
     - [返回跨域JSONAPI](http://jsonp.afeld.me/)
 
-####3. Html5
+#### 3. Html5
 - [HTML5 有哪些让你惊艳的 demo？](http://www.zhihu.com/question/24398907)
 
-####4. CSS
+#### 4. CSS
 - [browserhacks](http://browserhacks.com/)
-- []()
 
-####5. jQuery
+#### 5. jQuery
 
 1. 焦点图
     
@@ -172,7 +171,7 @@ UI设计交流◑﹏◐1群 92588284
     - [SuperSlidev2.1 -- 大话主席](http://www.superslide2.com/)
     - [soChange](http://www.bujichong.com/sojs/soChange/index.html)
 
-####6. Ext, EasyUI, J-UI 及其它各种UI方案
+#### 6. Ext, EasyUI, J-UI 及其它各种UI方案
 
 1. Ext
 
@@ -201,7 +200,7 @@ UI设计交流◑﹏◐1群 92588284
     - [Smart UI](http://smartui.chinamzz.com/)
     - [雅虎UI - CSS UI](http://developer.yahoo.com/yui/grids/)
 
-####7. 页面 社会化 分享功能
+#### 7. 页面 社会化 分享功能
 
 - [百度分享](http://share.baidu.com/) pc端
 - [JiaThis](http://jiathis.com/) pc端
@@ -209,7 +208,7 @@ UI设计交流◑﹏◐1群 92588284
 - [ShareSDK 轻松实现社会化功能](http://www.mob.com/#/index) 移动端
 - [友盟分享](http://dev.umeng.com/social/android/quick-integration) 移动端
 
-####8. 富文本编辑器
+#### 8. 富文本编辑器
 
 - [百度 ueditor](http://ueditor.baidu.com/website/)
 - [经典的ckeditor](http://ckeditor.com/)
@@ -222,7 +221,7 @@ UI设计交流◑﹏◐1群 92588284
 - [XEditor](http://lab.hustlzp.com/XEditor/)
 - [wangEditor](https://github.com/wangfupeng1988/wangEditor )
 
-####9. 日历
+#### 9. 日历
 
 1. PC
 
@@ -257,13 +256,13 @@ UI设计交流◑﹏◐1群 92588284
     - [Datejs](https://github.com/datejs/Datejs)
     - [sugarjs](http://sugarjs.com/api/Date)
 
-####10. 综合效果搜索平台
+#### 10. 综合效果搜索平台
 
 - [效果网](http://www.jq22.com)
 - [17素材](http://www.17sucai.com/)
 - [常用的JavaScript代码片段](http://microjs.com/)
 
-####11. 前端工程化
+#### 11. 前端工程化
 
 1. 概述
 
@@ -271,7 +270,7 @@ UI设计交流◑﹏◐1群 92588284
     - [什么是前端工程化](https://github.com/fouber/blog/issues/10?from=timeline&isappinstalled=0#)
 
 2. Gulp 
-    
+
     - [Gulp官网](http://gulpjs.com/)
     - [Gulp中文网](http://www.gulpjs.com.cn/)
     - [gulp资料收集](https://github.com/Platform-CUF/use-gulp)
@@ -297,7 +296,7 @@ UI设计交流◑﹏◐1群 92588284
     - [fis 官网](http://fex-team.github.io/fis-site/index.html)
     - [fis](http://fis.baidu.com/)
 
-####12. 轮播图
+#### 12. 轮播图
 
 1. pc图轮
 
@@ -331,7 +330,7 @@ UI设计交流◑﹏◐1群 92588284
     - [多种轮换图片](http://ajccom.github.io/niceslider/)
     - [滑动侧边栏](https://mango.github.io/slideout/)
 
-####13. 文件上传
+#### 13. 文件上传
 
 - [百度上传组件](http://fex.baidu.com/webuploader/)
 - [上传](https://blueimp.github.io/jQuery-File-Upload/)
@@ -342,7 +341,7 @@ UI设计交流◑﹏◐1群 92588284
 - [jQuery图片处理](http://www.oschina.net/project/tag/284/jquery-image-tools?lang=0&os=0&sort=view&p=2)
 - []()
 
-####14. 模拟select
+#### 14. 模拟select
 
 - [糖饼 select](http://aui.github.io/popupjs/doc/selectbox.html)
 - [flexselect](https://github.com/rmm5t/jquery-flexselect)
@@ -350,7 +349,7 @@ UI设计交流◑﹏◐1群 92588284
 - [select2](http://select2.github.io/)
 - []()
 
-####15. 取色插件
+#### 15. 取色插件
 
 - [类似 Photoshop 的界面取色插件](http://www.jq22.com/plugin/367)
 - [jquery color](https://github.com/jquery/jquery-color/)
@@ -358,29 +357,29 @@ UI设计交流◑﹏◐1群 92588284
 - [farbtastic 圆环＋正方形](https://github.com/mattfarina/farbtastic)
 - []()
 
-####16. 城市联动
+#### 16. 城市联动
 
 - [jquery.cityselect.js基于jQuery+JSON的省市或自定义联动效果](http://www.ijquery.cn/?p=360)
 - []()
 
-####17. 剪贴板
+#### 17. 剪贴板
 
 - [剪贴板](https://github.com/zeroclipboard/zeroclipboard)
 - [clipboard 最新的剪切方案](http://zenorocha.github.io/clipboard.js/)
 - [不是Flash的剪贴板](https://github.com/zenorocha/clipboard.js)
 
-####18. 简繁转换
+#### 18. 简繁转换
 
 - [简繁转换](https://github.com/BYVoid/OpenCC)
 
-####19. 表格 Grid
+#### 19. 表格 Grid
 
 - [facebook表格](http://facebook.github.io/fixed-data-table/)
 - [类似于Excel编辑表格-handsontable](http://handsontable.com/)
 - [bootstrap-table插件](http://bootstrap-table.wenzhixin.net.cn/)
 - [datatables](https://www.datatables.net/)
 
-####20. 在线演示
+#### 20. 在线演示
 
 - [js 在线编辑 - runjs](http://runjs.cn/)
 - [js 在线编辑 - jsbin](http://jsbin.com/)
@@ -392,15 +391,15 @@ UI设计交流◑﹏◐1群 92588284
 - [sql 在线编辑 - sqlfiddle](http://sqlfiddle.com/)
 - [mozilla 在线编辑器](https://thimble.mozilla.org)
 
-####21. 播放器
+#### 21. 播放器
 
 - [Html5 VideoPlayer](https://github.com/zmmbreeze/DeadSimpleVideoPlayer)
 
-####22. 粒子动画
+#### 22. 粒子动画
 
 - [Proton 烟花](http://a-jie.github.io/Proton/#example)
 
-###九. Nodejs
+### 九. Nodejs
 
 - [nodejs 篇幅比较巨大](http://liuqing.pw/)
 - [Node.js 包教不包会](https://github.com/alsotang/node-lessons)
@@ -422,7 +421,7 @@ UI设计交流◑﹏◐1群 92588284
 - [Node初学者入门，一本全面的NodeJS教程](http://ourjs.com/detail/529ca5950cb6498814000005)
 - [NodeJS的代码调试和性能调优](http://www.barretlee.com/blog/2015/10/07/debug-nodejs-in-command-line/)
 
-###十. 工具网站
+### 十. 工具网站
 
 1. 常规优化
 
@@ -491,7 +490,7 @@ UI设计交流◑﹏◐1群 92588284
     - [js性能测试](http://jsperf.com/)
     - []()
     
-###十一. 个人优秀设计网站
+### 十一. 个人优秀设计网站
 
 - [技术架构](http://www.zhihu.com/topic/19612641)
 - [前端架构](http://saito.im/note/The-Architecture-of-F2E/)
@@ -501,9 +500,9 @@ UI设计交流◑﹏◐1群 92588284
 - []()
 
 
-###十二. 代码分享
+### 十二. 代码分享
 
-####1. 推荐作品
+#### 1. 推荐作品
 
 - [winter代码片段需要翻墙](https://gist.github.com/wintercn)
 - [fgm](http://www.fgm.cc/learn/)
@@ -535,7 +534,7 @@ UI设计交流◑﹏◐1群 92588284
 - [黑白棋](http://js-game.github.io/othello/)
 - [fromone](http://yansm.github.io/fromone/index.html)
 
-####2. 群员作品
+#### 2. 群员作品
 
 - [MDialog - [合肥-M.J]](http://demo.webjyh.com/)
 - [轮播图 - [上海－冷静]](http://sandbox.runjs.cn/show/do6zlrrk )
@@ -559,11 +558,11 @@ UI设计交流◑﹏◐1群 92588284
 - [[上海-玄沐]- 个人网站](http://k.swao.cn/js/)
 - [[厦门-二哲]- 个人博客](http://www.meckodo.com/)
 
-####3. 国外大牛精品
+#### 3. 国外大牛精品
 
 - [pazguille](http://pazguille.me/)
 
-###十三. 简历模板
+### 十三. 简历模板
 
 - [不错的个人简历](http://learnshare.github.io/about/index.html)
 - [简历](http://hcy2367.github.io/resume/)
@@ -577,7 +576,7 @@ UI设计交流◑﹏◐1群 92588284
 - [Justin Young](http://cv.youngdze.com/)
 - []()
 
-###十四. 面试题
+### 十四. 面试题
 
 - [那几个月在找工作（百度，网易游戏）](http://www.nowcoder.com/discuss/3196)
 - [2014最新面试题](http://www.html-js.com/article/1743)
@@ -608,10 +607,10 @@ UI设计交流◑﹏◐1群 92588284
 - [前端开发面试题](https://github.com/markyun/My-blog/blob/master/Front-end-Developer-Questions/Questions-and-Answers/README.md)
 - [牛客网-笔试面经](http://www.nowcoder.com/discuss?type=2)
 
-###十五. iconfont
+### 十五. iconfont
 
 
-###十六. 开发工具类
+### 十六. 开发工具类
 
 1. 前端开发工具
 
@@ -709,12 +708,12 @@ UI设计交流◑﹏◐1群 92588284
     - [reveal](https://github.com/hakimel/reveal.js/)
     - [slippy](https://github.com/Seldaek/slippy)
             
-###十七. 前端导航网站
+### 十七. 前端导航网站
 
 
-###十八. 常用CDN
+### 十八. 常用CDN
 
 
-###十九. Git,SVN,Github
+### 十九. Git,SVN,Github
 
 
