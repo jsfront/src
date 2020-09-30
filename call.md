@@ -473,6 +473,7 @@ vue-1群：364912432
     - https://github.com/lin-xin/vue-manage-system
     - https://admin.heyui.top/login
     - https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/landing/
+    - https://github.com/chuzhixin/vue-admin-beautiful
     
 ----------
 
