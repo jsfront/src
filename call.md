@@ -531,6 +531,8 @@ vue-1群：364912432
     轻松搞定 form 表单，让你不再为表单而烦恼
     - https://zhuanlan.zhihu.com/p/256976325
     开源H5可视化编辑器Dooring之 动态表单设计器实现
+    - https://github.com/zhangyuhuihh/vue-page-produce
+    仿 dataV 的可视化编辑器的骨架模板
 
     
 ----------
