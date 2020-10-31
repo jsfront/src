@@ -533,6 +533,8 @@ vue-1群：364912432
     开源H5可视化编辑器Dooring之 动态表单设计器实现
     - https://github.com/zhangyuhuihh/vue-page-produce
     仿 dataV 的可视化编辑器的骨架模板
+    - https://github.com/huangwei9527/quark-h5
+    基于vue2 + koa2的 H5制作工具。让不会写代码的人也能轻松快速上手制作H5页面。类似易企秀、百度H5等H5制作、建站工具
 
     
 ----------
