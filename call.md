@@ -650,7 +650,16 @@ vue-1群：364912432
   - https://github.com/zwhGithub/vue-calendar
   - https://github.com/richardtallent/vue-simple-calendar
   - https://github.com/IBM/vue-a11y-calendar
-             
+  
+----------
+        
+- call:vue-tree           
+
+  - https://juejin.im/post/5a265ed551882531ba10cce8
+  基于Vue的组织架构树组件
+  - https://juejin.im/post/6892921669149523975
+  一个基于Vue的组织架构树组件    
+          
 ----------
 
 - call:flutter  
@@ -827,6 +836,8 @@ Angular-1群 238251402
   计算机基础面试题小计
   - https://fecommunity.github.io/front-end-interview/
   前端工程师面试宝典
+  - https://juejin.im/post/6893856813247266823
+  前端面试题总结
     
 ----------
         
