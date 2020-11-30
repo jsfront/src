@@ -394,24 +394,18 @@ react-1群：530415177
 - call:fe-nav  
 
   - http://www.daqianduan.com/nav
-  - http://sentsin.com/daohang/
   - http://123.jser.us/
   - http://www.css88.com/nav/
-  - http://uxbees.com/index.html
-  uxb
   - http://www.zhihu.com/question/19951193
   有哪些不错的前端开发博客
   - http://www.zhihu.com/question/20246142
   知乎上，前端开发领域有哪些值得推荐的问答
-  - http://codepen.io/majinyun0802/full/CBhoD
   - http://www.zhihu.com/question/19565118
   好的技术博客有哪些
   - http://www.zhihu.com/question/22902084
   国外，前端领域有什么出名的论坛或者社区
   - https://github.com/JacksonTian/fks
   前端知识结构
-  - http://www.haourl.cn/
-  网址导航
   - http://www.awesomes.cn/
   前端工具箱
    
