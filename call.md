@@ -539,6 +539,13 @@ vue-1群：364912432
     
 ----------
 
+- call:react-h5
+
+    - https://github.com/lzuntalented/lz-h5-edit
+    随心秀(react版h5微场景编辑器)，一款类似【易企秀】【兔展】的H5微场景编辑器
+    - https://github.com/rxwater/rxeditor
+    HTML Visual Editor, based in Bootstrap. 基于Bootstrap实现的，HTML可视化编辑工具。
+
 - call:vue-drag  
 
     - https://github.com/hilongjw/vue-dragging
