@@ -706,7 +706,23 @@ Angular-1群 238251402
     - https://github.com/gianarb/awesome-angularjs
     - https://github.com/AngularClass/awesome-angular2
       Angular 资料汇总
+        
+----------
+
+- call:angular-admin  
+Angular-1群 238251402
+
+    - https://ng-alain-doc.surge.sh/
+    一套基于 Ng-zorro-antd【ANT DESIGN】 的企业后台模板
+    - https://www.erupt.xyz/
+    Erupt Framework 使用 注解 快速开发管理后台
+    - https://github.com/ZRenu/ng-deerway
+    鹿途后台管理系统
+    - https://github.com/yixiangling/abp-ng-alain
+    基于ng-alain脚手架，增加对ABP服务端支持（ABP免费模板）
     
+    
+
 ----------
         
 - call:mac        
