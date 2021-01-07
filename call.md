@@ -363,7 +363,7 @@ react-1群：530415177
     基于antd、redux-observable、redux-thunk、react-router响应式SPA脚手架
     - https://github.com/LANIF-UI/dva-boot-admin   
     react 16 + react-router 4 + dva 2 + antd 3 后台管理 脚手架
-    -https://juejin.im/post/5db64fa95188256edd7e73ae
+    - https://juejin.im/post/5db64fa95188256edd7e73ae
     快速打造 react 后台管理系统
     
 
