@@ -469,6 +469,7 @@ vue-1群：364912432
     - https://github.com/chuzhixin/vue-admin-beautiful
     - https://github.com/elunez/eladmin
     - https://github.com/epicmaxco/vuestic-admin
+    - https://gitee.com/hooray/fantastic-admin/
     
     
 ----------
