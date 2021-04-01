@@ -873,6 +873,10 @@ Angular-1群 238251402
   艺术喵 2 年前端面试心路历程（字节跳动、YY、虎牙、BIGO）
   - https://juejin.cn/post/6930897845369356295
   化身面试官出30+Vue面试题，超级干货（附答案）
+  - https://github.com/Advanced-Frontend/Daily-Interview-Question
+  [大厂面试题](https://github.com/Advanced-Frontend/Daily-Interview-Question)
+  - https://bitable.feishu.cn/app8Ok6k9qafpMkgyRbfgxeEnet
+  [前端年后面试真题，会80%直接进大厂](https://bitable.feishu.cn/app8Ok6k9qafpMkgyRbfgxeEnet)  
     
 ----------
         
