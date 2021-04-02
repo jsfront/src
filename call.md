@@ -545,6 +545,8 @@ vue-1群：364912432
       Vue.js 流程图&流程图设计器
     - https://github.com/caohuatao/vue-super-flow
       vue-super-flow Vue 流程图
+    - https://github.com/happydele/vue-topology
+      基于le5le-topology方案的核心功能，抽离实现工作流程图功能
 
 ----------
 
