@@ -540,7 +540,11 @@ vue-1群：364912432
     - https://gitee.com/yjblogs/VFD
       VUE FLOW DESIGN流程设计器
     - https://github.com/didi/LogicFlow
-      LogicFlow 是一款解决流程可视化的前端框架      
+      LogicFlow 是一款解决流程可视化的前端框架     
+    - https://github.com/joyceworks/flowchart-vue
+      Vue.js 流程图&流程图设计器
+    - https://github.com/caohuatao/vue-super-flow
+      vue-super-flow Vue 流程图
 
 ----------
 
