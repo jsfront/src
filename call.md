@@ -625,6 +625,7 @@ vue-1群：364912432
   - http://es6.ruanyifeng.com/
   - https://github.com/axios/axios
   - https://www.kancloud.cn/yunye/axios/234845
+  - https://cli.vuejs.org/zh/guide/installation.html
   axios中文说明
   - https://ssr.vuejs.org/zh/
   Vue.js 服务器端渲染指南
