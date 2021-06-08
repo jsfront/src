@@ -471,8 +471,10 @@ vue-1群：364912432
     - https://github.com/epicmaxco/vuestic-admin
     - https://gitee.com/hooray/fantastic-admin/
     - https://github.com/anncwb/vue-vben-admin
+    - https://gitee.com/wuyanshen/vue-admin
+      电商后台管理系统(前端项目)
     - https://github.com/newbee-ltd/vue3-admin
-    
+      Vue 3.0 + Vite 2.0 + Vue-Router 4.0 + Element-Plus + Echarts 5.0 + Axios 开发的后台管理系统
     
 ----------
 
