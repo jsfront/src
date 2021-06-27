@@ -5,7 +5,9 @@
 - [知乎前端书籍搜索结果](https://www.zhihu.com/search?type=content&q=%E5%89%8D%E7%AB%AF%E4%B9%A6%E7%B1%8D)
 
 # 1. Javascript
+- [JavaScript高级程序设计（第4版）](https://item.jd.com/12958580.html)
 - [JavaScript高级程序设计（第3版）](http://product.china-pub.com/199113)
+- [JavaScript权威指南(第7版)](https://item.jd.com/10974436.html)
 - [JavaScript权威指南(第6版)](http://product.china-pub.com/199271)
 - [JavaScript语言精粹（修订版）](http://product.china-pub.com/3683795)
 - [锋利的jQuery（第2版）](http://item.jd.com/11019625.html)
@@ -19,13 +21,13 @@
 - [学习JavaScript数据结构与算法](http://product.china-pub.com/3804284)
 - [你不知道的JavaScript（上卷）](http://item.jd.com/11676671.html)
 - [你不知道的JavaScript（中卷）](http://item.jd.com/10570721907.html)
+- [你不知道的JavaScript（下卷）](https://item.jd.com/41559784502.html)
 - [精通Javascript 第二版](https://item.jd.com/10607212456.html)
 - [WebKit技术内幕](http://product.china-pub.com/4172218)
 - [实战ES2015：深入现代JavaScript 应用开发](http://product.china-pub.com/5006875)
 - [深入理解ES6](http://product.china-pub.com/6011498)
 - [你不知道的JavaScript(下卷)](http://product.china-pub.com/7159257)
 - [深入理解JavaScript特性](http://product.china-pub.com/8059620)
-- [JavaScript高级程序设计（第4版） [预售]](https://www.ituring.com.cn/book/2472)
 
 # 2. Nodejs
 - [Node.js项目实践：构建可扩展的Web应用](http://item.jd.com/11688177.html)
