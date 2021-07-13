@@ -1238,6 +1238,14 @@ Angular-1群 238251402
   Go社区文档
        
 ----------
+
+- call:go-admin
+
+  - https://github.com/go-admin-team/go-admin
+    基于Gin + Vue + Element UI的前后端分离权限管理系统脚手架
+
+----------
+
         
 - call:ui    
   
